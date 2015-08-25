@@ -1,0 +1,5 @@
+python -m sumac -p ~/projects/genbank -i Myrtaceae -o Vochysiaceae 
+
+
+GenBank Flat File Release 205.0
+Release Date:    December 15, 2014

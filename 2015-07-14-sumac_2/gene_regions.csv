@@ -1,0 +1,58 @@
+Gene Region #,Description,# of OTUs,Aligned Length,Missing Data (%),Taxon Coverage Density
+1,"PAL gene for phenylalanine ammonia lyase, partial cds.",4,2148,99.7,0.0
+2,"polygalacturonase-inhibiting protein (pgip) gene, partial cds.",5,909,99.6,0.0
+3,"subsp. globulus ThioH gene for thioredoxin h, partial cds, representing a pool of 30 individuals.",4,495,99.7,0.0
+4,"voucher GBac clone 1 RNA polymerase II second largest subunit (rpb2) gene, exons 19 through 22 and partial cds.",10,527,99.2,0.01
+5,"voucher DPFP1B cytochrome b6/f complex subunit VIII (ycf6) gene, partial cds; ycf6-psbM intergenic spacer, complete sequence; and PsbM (psbM) gene, partial cds; chloroplast.",8,1084,99.3,0.01
+6,"voucher DPFP1B trnD-trnY intergenic spacer, partial sequence; tRNA-Tyr (trnY) gene, trnY-trnE intergenic spacer, and tRNA-Glu (trnE) gene, complete sequence; and trnE-trnT intergenic spacer, partial sequence; chloroplast.",8,1572,99.3,0.01
+7,"voucher DPFP1B psbM-trnD intergenic spacer and tRNA-Asp (trnD) gene, partial sequence; chloroplast.",8,1129,99.3,0.01
+8,"voucher NMNH 06-8348 atpF-atpH intergenic spacer, partial sequence; chloroplast.",6,748,99.5,0.0
+9,"PsbA (psbA) gene, partial cds; and tRNA-Lys (trnK) gene, partial sequence; chloroplast genes for chloroplast products.",29,399,97.6,0.02
+10,"haplotype LFB trnL-trnF intergenic spacer and tRNA-Phe (trnF) gene, partial sequence; chloroplast.",12,260,99.0,0.01
+11,"subsp. globulus LEAFY/FLORICAULA homolog (ELF1) gene, complete cds.",7,1656,99.4,0.01
+12,"clone NC01 cellulose synthase (CesA1) gene, promoter region and 5' UTR.",10,1132,99.2,0.01
+13,"CesA2 gene, promoter region.",11,1242,99.1,0.01
+14,"CesA3 gene, promoter region and 5' UTR.",11,1350,99.1,0.01
+15,"cellulose synthase (CesA1) gene, promoter region.",11,2072,99.1,0.01
+16,"CesA5A (CesA5A) gene, promoter region, 5' UTR and partial cds.",8,1905,99.3,0.01
+17,"CesA7 gene, promoter region and 5' UTR.",11,920,99.1,0.01
+18,"clone NC100 cellulose synthase (CesA1) gene, promoter region, exon 1, 5' UTR and partial cds.",11,552,99.1,0.01
+19,"voucher Junga Jun6 rpl32-trnL intergenic spacer, partial sequence; chloroplast.",42,932,96.6,0.03
+20,"voucher NMNH 06-8349 acetyl-CoA carboxylase-D (accD) gene, partial cds; chloroplast.",34,263,97.2,0.03
+21,"EglCesA2 mRNA for cellulose synthase catalytic subunit, complete cds.",7,5853,99.4,0.01
+22,"voucher Kulin 4-3-Lox psbD-trnT intergenic spacer, partial sequence; chloroplast.",6,1514,99.5,0.0
+23,"gene for COBRA-like protein, complete cds, representing a pool of 30 individuals.",4,3287,99.7,0.0
+24,"SuSy1 gene for sucrose synthase 1, partial cds.",4,3807,99.7,0.0
+25,"voucher LOA245 tRNA-Cys (trnC) gene, partial sequence; trnC-ycf6 intergenic spacer, complete sequence; and cytochrome b6/f complex subunit VIII (ycf6) gene, partial cds; chloroplast.",20,938,98.4,0.02
+26,"CesA gene for cellulose synthase catalytic subunit, complete cds.",8,6871,99.3,0.01
+27,"CesA1 gene for cellulose synthase 1, partial cds, representing a pool of 30 individuals.",8,8908,99.3,0.01
+28,"Eglim1 gene for transcription factor lim1, complete cds.",5,2913,99.6,0.0
+29,"MYB1 gene for MYB transcription factor 1, complete cds.",5,1531,99.6,0.0
+30,"actin gene, partial cds.",4,667,99.7,0.0
+31,"voucher Kulin 4-3-Lox trnQ-rps16 intergenic spacer, partial sequence; chloroplast.",47,1640,96.1,0.04
+32,"voucher Kulin 4-3-Lox PetB (petB) gene, intron; chloroplast.",6,690,99.5,0.0
+33,"voucher DPFP1B ribosomal protein S16 (rps16) gene, intron; chloroplast.",19,870,98.4,0.02
+34,"voucher DPFP1B tRNA-Ser (trnS) gene and trnS-trnG intergenic spacer, partial sequence; chloroplast.",14,977,98.9,0.01
+35,"voucher Pillon 1432 flavodoxin family protein gene, partial cds.",4,639,99.7,0.0
+36,"var. glaberrima voucher Johansen et al. 55 S-adenosyl-L-methionine-dependent methyltransferase superfamily protein gene, partial cds.",4,593,99.7,0.0
+37,"var. glaberrima voucher Johansen et al. 55 glycoside hydrolase family 2 protein gene, partial cds.",4,1125,99.7,0.0
+38,"var. glaberrima voucher Johansen et al. 55 chaperone DnaJ-domain superfamily protein gene, partial cds.",4,984,99.7,0.0
+39,"voucher Johansen et al. 60 polynucleotidyl transferase gene, intron.",4,1356,99.7,0.0
+40,"plastid external transcribed spacer, ETS, specimen voucher Belsham M77 (OTA).",557,823,54.3,0.46
+41,"5S ribosomal RNA gene, partial sequence; and 5S ribosomal RNA intergenic spacer, complete sequence.",113,1014,90.7,0.09
+42,"caffeic O-methyltransferase 1 mRNA, complete cds.",5,3537,99.6,0.0
+43,"CAD gene for cinnamyl alcohol dehydrogenase, complete cds.",9,5467,99.3,0.01
+44,"CCR gene for cinnamoyl-CoA reductase, complete cds, Sanger sequencing.",44,4157,96.4,0.04
+45,"caffeoyl-CoA 3-O-methyltransferase (CCOMT) mRNA, complete cds.",6,3625,99.5,0.0
+46,"ATP synthase beta subunit (atpB) gene, partial cds; chloroplast gene for chloroplast product.",5,1515,99.6,0.0
+47,"chloroplast rpl16 gene, intron sequence.",155,1226,87.3,0.13
+48,"partial 26S rRNA gene, specimen voucher Ed Biffin s.n. (CANB).",16,961,98.7,0.01
+49,"voucher NTUHort006 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, complete sequence; and 5.8S ribosomal RNA gene, partial sequence.",870,1975,28.7,0.71
+50,"NADH dehydrogenase subunit F (ndhF) gene, partial cds; chloroplast gene for chloroplast product.",213,2245,82.5,0.17
+51,chloroplast partial rpoB gene for RNA polymerase beta subunit.,44,511,96.4,0.04
+52,chloroplast partial rpoC1 gene for RNA polymerase beta' subunit.,47,604,96.1,0.04
+53,"chloroplast trnL gene, intron, partial sequence, isolate: OGA0017.",162,1026,86.7,0.13
+54,"Ycf5 (ycf5) gene, partial cds; chloroplast.",7,248,99.4,0.01
+55,"chloroplast matK gene for maturase K, partial cds.",550,3171,54.9,0.45
+56,"clone 26 JLA region; ribosomal protein L2 (rpl2) gene, partial cds; and tRNA-His gene, partial sequence; chloroplast genes for chloroplast products.",326,1849,73.3,0.27
+57,"chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, complete cds.",323,1675,73.5,0.26

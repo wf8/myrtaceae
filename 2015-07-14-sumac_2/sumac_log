@@ -1,0 +1,1649 @@
+
+SUMAC: supermatrix constructor
+
+Genbank database already downloaded. Indexing sequences...
+3444283 sequences indexed!
+Ingroup = Myrtaceae
+Outgroup = Vochysiaceae
+Searching for ingroup and outgroup sequences...
+This search was already performed. Loading previous results...
+Ingroup sequences found: 8591  Outgroup sequences found: 137
+Using sequence length similarity threshold 0.5
+Using BLAST e-value threshold 1e-10
+Making distance matrix for all sequences...
+Spawning 12 processes to make distance matrix.
+
+Clustering sequences using the SLINK algorithm...
+
+Finalizing clusters...
+Found 927 clusters.
+Building sequence matrices for each cluster.
+Kept 57 clusters, discarded those with < 4 taxa.
+Aligning clusters with MAFFT...
+Spawning 12 processes to align clusters.
+mafft --auto --adjustdirection clusters/1.fasta
+mafft --auto --adjustdirection clusters/3.fasta
+mafft --auto --adjustdirection clusters/7.fasta
+mafft --auto --adjustdirection clusters/5.fasta
+mafft --auto --adjustdirection clusters/9.fasta
+mafft --auto --adjustdirection clusters/11.fasta
+mafft --auto --adjustdirection clusters/13.fasta
+mafft --auto --adjustdirection clusters/15.fasta
+mafft --auto --adjustdirection clusters/17.fasta
+mafft --auto --adjustdirection clusters/19.fasta
+mafft --auto --adjustdirection clusters/21.fasta
+mafft --auto --adjustdirection clusters/23.fasta
+mafft --auto --adjustdirection clusters/4.fasta
+mafft --auto --adjustdirection clusters/2.fasta
+mafft --auto --adjustdirection clusters/24.fasta
+mafft --auto --adjustdirection clusters/25.fasta
+mafft --auto --adjustdirection clusters/18.fasta
+mafft --auto --adjustdirection clusters/27.fasta
+mafft --auto --adjustdirection clusters/10.fasta
+mafft --auto --adjustdirection clusters/6.fasta
+mafft --auto --adjustdirection clusters/29.fasta
+mafft --auto --adjustdirection clusters/8.fasta
+mafft --auto --adjustdirection clusters/31.fasta
+mafft --auto --adjustdirection clusters/22.fasta
+mafft --auto --adjustdirection clusters/33.fasta
+mafft --auto --adjustdirection clusters/35.fasta
+mafft --auto --adjustdirection clusters/12.fasta
+mafft --auto --adjustdirection clusters/14.fasta
+mafft --auto --adjustdirection clusters/36.fasta
+mafft --auto --adjustdirection clusters/30.fasta
+mafft --auto --adjustdirection clusters/37.fasta
+mafft --auto --adjustdirection clusters/39.fasta
+mafft --auto --adjustdirection clusters/41.fasta
+mafft --auto --adjustdirection clusters/16.fasta
+mafft --auto --adjustdirection clusters/43.fasta
+mafft --auto --adjustdirection clusters/38.fasta
+mafft --auto --adjustdirection clusters/40.fasta
+mafft --auto --adjustdirection clusters/26.fasta
+mafft --auto --adjustdirection clusters/34.fasta
+mafft --auto --adjustdirection clusters/45.fasta
+mafft --auto --adjustdirection clusters/47.fasta
+mafft --auto --adjustdirection clusters/49.fasta
+mafft --auto --adjustdirection clusters/46.fasta
+mafft --auto --adjustdirection clusters/28.fasta
+mafft --auto --adjustdirection clusters/51.fasta
+mafft --auto --adjustdirection clusters/53.fasta
+mafft --auto --adjustdirection clusters/55.fasta
+mafft --auto --adjustdirection clusters/57.fasta
+mafft --auto --adjustdirection clusters/52.fasta
+mafft --auto --adjustdirection clusters/44.fasta
+mafft --auto --adjustdirection clusters/20.fasta
+mafft --auto --adjustdirection clusters/42.fasta
+mafft --auto --adjustdirection clusters/48.fasta
+mafft --auto --adjustdirection clusters/54.fasta
+mafft --auto --adjustdirection clusters/50.fasta
+mafft --auto --adjustdirection clusters/32.fasta
+mafft --auto --adjustdirection clusters/56.fasta
+Aligned cluster #: 1
+DNA region: PAL gene for phenylalanine ammonia lyase, partial cds.
+OTUs: 4
+Aligned length: 2148
+Missing data (%): 99.7
+Taxon coverage density: 0.0
+Aligned cluster #: 2
+DNA region: polygalacturonase-inhibiting protein (pgip) gene, partial cds.
+OTUs: 5
+Aligned length: 909
+Missing data (%): 99.6
+Taxon coverage density: 0.0
+Aligned cluster #: 3
+DNA region: subsp. globulus ThioH gene for thioredoxin h, partial cds, representing a pool of 30 individuals.
+OTUs: 4
+Aligned length: 495
+Missing data (%): 99.7
+Taxon coverage density: 0.0
+Aligned cluster #: 4
+DNA region: voucher GBac clone 1 RNA polymerase II second largest subunit (rpb2) gene, exons 19 through 22 and partial cds.
+OTUs: 10
+Aligned length: 527
+Missing data (%): 99.2
+Taxon coverage density: 0.01
+Aligned cluster #: 5
+DNA region: voucher DPFP1B cytochrome b6/f complex subunit VIII (ycf6) gene, partial cds; ycf6-psbM intergenic spacer, complete sequence; and PsbM (psbM) gene, partial cds; chloroplast.
+OTUs: 8
+Aligned length: 1084
+Missing data (%): 99.3
+Taxon coverage density: 0.01
+Aligned cluster #: 6
+DNA region: voucher DPFP1B trnD-trnY intergenic spacer, partial sequence; tRNA-Tyr (trnY) gene, trnY-trnE intergenic spacer, and tRNA-Glu (trnE) gene, complete sequence; and trnE-trnT intergenic spacer, partial sequence; chloroplast.
+OTUs: 8
+Aligned length: 1572
+Missing data (%): 99.3
+Taxon coverage density: 0.01
+Aligned cluster #: 7
+DNA region: voucher DPFP1B psbM-trnD intergenic spacer and tRNA-Asp (trnD) gene, partial sequence; chloroplast.
+OTUs: 8
+Aligned length: 1129
+Missing data (%): 99.3
+Taxon coverage density: 0.01
+Aligned cluster #: 8
+DNA region: voucher NMNH 06-8348 atpF-atpH intergenic spacer, partial sequence; chloroplast.
+OTUs: 6
+Aligned length: 748
+Missing data (%): 99.5
+Taxon coverage density: 0.0
+Aligned cluster #: 9
+DNA region: PsbA (psbA) gene, partial cds; and tRNA-Lys (trnK) gene, partial sequence; chloroplast genes for chloroplast products.
+OTUs: 29
+Aligned length: 399
+Missing data (%): 97.6
+Taxon coverage density: 0.02
+Aligned cluster #: 10
+DNA region: haplotype LFB trnL-trnF intergenic spacer and tRNA-Phe (trnF) gene, partial sequence; chloroplast.
+OTUs: 12
+Aligned length: 260
+Missing data (%): 99.0
+Taxon coverage density: 0.01
+Aligned cluster #: 11
+DNA region: subsp. globulus LEAFY/FLORICAULA homolog (ELF1) gene, complete cds.
+OTUs: 7
+Aligned length: 1656
+Missing data (%): 99.4
+Taxon coverage density: 0.01
+Aligned cluster #: 12
+DNA region: clone NC01 cellulose synthase (CesA1) gene, promoter region and 5' UTR.
+OTUs: 10
+Aligned length: 1132
+Missing data (%): 99.2
+Taxon coverage density: 0.01
+Aligned cluster #: 13
+DNA region: CesA2 gene, promoter region.
+OTUs: 11
+Aligned length: 1242
+Missing data (%): 99.1
+Taxon coverage density: 0.01
+Aligned cluster #: 14
+DNA region: CesA3 gene, promoter region and 5' UTR.
+OTUs: 11
+Aligned length: 1350
+Missing data (%): 99.1
+Taxon coverage density: 0.01
+Aligned cluster #: 15
+DNA region: cellulose synthase (CesA1) gene, promoter region.
+OTUs: 11
+Aligned length: 2072
+Missing data (%): 99.1
+Taxon coverage density: 0.01
+Aligned cluster #: 16
+DNA region: CesA5A (CesA5A) gene, promoter region, 5' UTR and partial cds.
+OTUs: 8
+Aligned length: 1905
+Missing data (%): 99.3
+Taxon coverage density: 0.01
+Aligned cluster #: 17
+DNA region: CesA7 gene, promoter region and 5' UTR.
+OTUs: 11
+Aligned length: 920
+Missing data (%): 99.1
+Taxon coverage density: 0.01
+Aligned cluster #: 18
+DNA region: clone NC100 cellulose synthase (CesA1) gene, promoter region, exon 1, 5' UTR and partial cds.
+OTUs: 11
+Aligned length: 552
+Missing data (%): 99.1
+Taxon coverage density: 0.01
+Aligned cluster #: 19
+DNA region: voucher Junga Jun6 rpl32-trnL intergenic spacer, partial sequence; chloroplast.
+OTUs: 42
+Aligned length: 932
+Missing data (%): 96.6
+Taxon coverage density: 0.03
+Aligned cluster #: 20
+DNA region: voucher NMNH 06-8349 acetyl-CoA carboxylase-D (accD) gene, partial cds; chloroplast.
+OTUs: 34
+Aligned length: 263
+Missing data (%): 97.2
+Taxon coverage density: 0.03
+Aligned cluster #: 21
+DNA region: EglCesA2 mRNA for cellulose synthase catalytic subunit, complete cds.
+OTUs: 7
+Aligned length: 5853
+Missing data (%): 99.4
+Taxon coverage density: 0.01
+Aligned cluster #: 22
+DNA region: voucher Kulin 4-3-Lox psbD-trnT intergenic spacer, partial sequence; chloroplast.
+OTUs: 6
+Aligned length: 1514
+Missing data (%): 99.5
+Taxon coverage density: 0.0
+Aligned cluster #: 23
+DNA region: gene for COBRA-like protein, complete cds, representing a pool of 30 individuals.
+OTUs: 4
+Aligned length: 3287
+Missing data (%): 99.7
+Taxon coverage density: 0.0
+Aligned cluster #: 24
+DNA region: SuSy1 gene for sucrose synthase 1, partial cds.
+OTUs: 4
+Aligned length: 3807
+Missing data (%): 99.7
+Taxon coverage density: 0.0
+Aligned cluster #: 25
+DNA region: voucher LOA245 tRNA-Cys (trnC) gene, partial sequence; trnC-ycf6 intergenic spacer, complete sequence; and cytochrome b6/f complex subunit VIII (ycf6) gene, partial cds; chloroplast.
+OTUs: 20
+Aligned length: 938
+Missing data (%): 98.4
+Taxon coverage density: 0.02
+Aligned cluster #: 26
+DNA region: CesA gene for cellulose synthase catalytic subunit, complete cds.
+OTUs: 8
+Aligned length: 6871
+Missing data (%): 99.3
+Taxon coverage density: 0.01
+Aligned cluster #: 27
+DNA region: CesA1 gene for cellulose synthase 1, partial cds, representing a pool of 30 individuals.
+OTUs: 8
+Aligned length: 8908
+Missing data (%): 99.3
+Taxon coverage density: 0.01
+Aligned cluster #: 28
+DNA region: Eglim1 gene for transcription factor lim1, complete cds.
+OTUs: 5
+Aligned length: 2913
+Missing data (%): 99.6
+Taxon coverage density: 0.0
+Aligned cluster #: 29
+DNA region: MYB1 gene for MYB transcription factor 1, complete cds.
+OTUs: 5
+Aligned length: 1531
+Missing data (%): 99.6
+Taxon coverage density: 0.0
+Aligned cluster #: 30
+DNA region: actin gene, partial cds.
+OTUs: 4
+Aligned length: 667
+Missing data (%): 99.7
+Taxon coverage density: 0.0
+Aligned cluster #: 31
+DNA region: voucher Kulin 4-3-Lox trnQ-rps16 intergenic spacer, partial sequence; chloroplast.
+OTUs: 47
+Aligned length: 1640
+Missing data (%): 96.1
+Taxon coverage density: 0.04
+Aligned cluster #: 32
+DNA region: voucher Kulin 4-3-Lox PetB (petB) gene, intron; chloroplast.
+OTUs: 6
+Aligned length: 690
+Missing data (%): 99.5
+Taxon coverage density: 0.0
+Aligned cluster #: 33
+DNA region: voucher DPFP1B ribosomal protein S16 (rps16) gene, intron; chloroplast.
+OTUs: 19
+Aligned length: 870
+Missing data (%): 98.4
+Taxon coverage density: 0.02
+Aligned cluster #: 34
+DNA region: voucher DPFP1B tRNA-Ser (trnS) gene and trnS-trnG intergenic spacer, partial sequence; chloroplast.
+OTUs: 14
+Aligned length: 977
+Missing data (%): 98.9
+Taxon coverage density: 0.01
+Aligned cluster #: 35
+DNA region: voucher Pillon 1432 flavodoxin family protein gene, partial cds.
+OTUs: 4
+Aligned length: 639
+Missing data (%): 99.7
+Taxon coverage density: 0.0
+Aligned cluster #: 36
+DNA region: var. glaberrima voucher Johansen et al. 55 S-adenosyl-L-methionine-dependent methyltransferase superfamily protein gene, partial cds.
+OTUs: 4
+Aligned length: 593
+Missing data (%): 99.7
+Taxon coverage density: 0.0
+Aligned cluster #: 37
+DNA region: var. glaberrima voucher Johansen et al. 55 glycoside hydrolase family 2 protein gene, partial cds.
+OTUs: 4
+Aligned length: 1125
+Missing data (%): 99.7
+Taxon coverage density: 0.0
+Aligned cluster #: 38
+DNA region: var. glaberrima voucher Johansen et al. 55 chaperone DnaJ-domain superfamily protein gene, partial cds.
+OTUs: 4
+Aligned length: 984
+Missing data (%): 99.7
+Taxon coverage density: 0.0
+Aligned cluster #: 39
+DNA region: voucher Johansen et al. 60 polynucleotidyl transferase gene, intron.
+OTUs: 4
+Aligned length: 1356
+Missing data (%): 99.7
+Taxon coverage density: 0.0
+Aligned cluster #: 40
+DNA region: plastid external transcribed spacer, ETS, specimen voucher Belsham M77 (OTA).
+OTUs: 557
+Aligned length: 823
+Missing data (%): 54.3
+Taxon coverage density: 0.46
+Aligned cluster #: 41
+DNA region: 5S ribosomal RNA gene, partial sequence; and 5S ribosomal RNA intergenic spacer, complete sequence.
+OTUs: 113
+Aligned length: 1014
+Missing data (%): 90.7
+Taxon coverage density: 0.09
+Aligned cluster #: 42
+DNA region: caffeic O-methyltransferase 1 mRNA, complete cds.
+OTUs: 5
+Aligned length: 3537
+Missing data (%): 99.6
+Taxon coverage density: 0.0
+Aligned cluster #: 43
+DNA region: CAD gene for cinnamyl alcohol dehydrogenase, complete cds.
+OTUs: 9
+Aligned length: 5467
+Missing data (%): 99.3
+Taxon coverage density: 0.01
+Aligned cluster #: 44
+DNA region: CCR gene for cinnamoyl-CoA reductase, complete cds, Sanger sequencing.
+OTUs: 44
+Aligned length: 4157
+Missing data (%): 96.4
+Taxon coverage density: 0.04
+Aligned cluster #: 45
+DNA region: caffeoyl-CoA 3-O-methyltransferase (CCOMT) mRNA, complete cds.
+OTUs: 6
+Aligned length: 3625
+Missing data (%): 99.5
+Taxon coverage density: 0.0
+Aligned cluster #: 46
+DNA region: ATP synthase beta subunit (atpB) gene, partial cds; chloroplast gene for chloroplast product.
+OTUs: 5
+Aligned length: 1515
+Missing data (%): 99.6
+Taxon coverage density: 0.0
+Aligned cluster #: 47
+DNA region: chloroplast rpl16 gene, intron sequence.
+OTUs: 155
+Aligned length: 1226
+Missing data (%): 87.3
+Taxon coverage density: 0.13
+Aligned cluster #: 48
+DNA region: partial 26S rRNA gene, specimen voucher Ed Biffin s.n. (CANB).
+OTUs: 16
+Aligned length: 961
+Missing data (%): 98.7
+Taxon coverage density: 0.01
+Aligned cluster #: 49
+DNA region: voucher NTUHort006 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, complete sequence; and 5.8S ribosomal RNA gene, partial sequence.
+OTUs: 870
+Aligned length: 1975
+Missing data (%): 28.7
+Taxon coverage density: 0.71
+Aligned cluster #: 50
+DNA region: NADH dehydrogenase subunit F (ndhF) gene, partial cds; chloroplast gene for chloroplast product.
+OTUs: 213
+Aligned length: 2245
+Missing data (%): 82.5
+Taxon coverage density: 0.17
+Aligned cluster #: 51
+DNA region: chloroplast partial rpoB gene for RNA polymerase beta subunit.
+OTUs: 44
+Aligned length: 511
+Missing data (%): 96.4
+Taxon coverage density: 0.04
+Aligned cluster #: 52
+DNA region: chloroplast partial rpoC1 gene for RNA polymerase beta' subunit.
+OTUs: 47
+Aligned length: 604
+Missing data (%): 96.1
+Taxon coverage density: 0.04
+Aligned cluster #: 53
+DNA region: chloroplast trnL gene, intron, partial sequence, isolate: OGA0017.
+OTUs: 162
+Aligned length: 1026
+Missing data (%): 86.7
+Taxon coverage density: 0.13
+Aligned cluster #: 54
+DNA region: Ycf5 (ycf5) gene, partial cds; chloroplast.
+OTUs: 7
+Aligned length: 248
+Missing data (%): 99.4
+Taxon coverage density: 0.01
+Aligned cluster #: 55
+DNA region: chloroplast matK gene for maturase K, partial cds.
+OTUs: 550
+Aligned length: 3171
+Missing data (%): 54.9
+Taxon coverage density: 0.45
+Aligned cluster #: 56
+DNA region: clone 26 JLA region; ribosomal protein L2 (rpl2) gene, partial cds; and tRNA-His gene, partial sequence; chloroplast genes for chloroplast products.
+OTUs: 326
+Aligned length: 1849
+Missing data (%): 73.3
+Taxon coverage density: 0.27
+Aligned cluster #: 57
+DNA region: chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, complete cds.
+OTUs: 323
+Aligned length: 1675
+Missing data (%): 73.5
+Taxon coverage density: 0.26
+Concatenating alignments...
+Supermatrix attributes:
+OTU:  Acca sellowiana % missing data = 0.89
+OTU:  Acmena acuminatissima % missing data = 0.92
+OTU:  Acmena cf. % missing data = 0.97
+OTU:  Acmena divaricata % missing data = 0.92
+OTU:  Acmena graveolens % missing data = 0.91
+OTU:  Acmena hemilampra % missing data = 0.94
+OTU:  Acmena ingens % missing data = 0.92
+OTU:  Acmena mackinnoniana % missing data = 0.91
+OTU:  Acmena resa % missing data = 0.97
+OTU:  Acmena smithii % missing data = 0.87
+OTU:  Acmena sp. % missing data = 0.97
+OTU:  Acmenosperma claviflorum % missing data = 0.91
+OTU:  Actinodium cunninghamii % missing data = 0.92
+OTU:  Agonis flexuosa % missing data = 0.9
+OTU:  Agonis floribunda % missing data = 0.95
+OTU:  Agonis grandiflora % missing data = 0.95
+OTU:  Agonis juniperina % missing data = 0.95
+OTU:  Agonis obtusissima % missing data = 0.95
+OTU:  Agonis spathulata % missing data = 0.95
+OTU:  Algrizea macrochlamys % missing data = 0.91
+OTU:  Allosyncarpia ternata % missing data = 0.93
+OTU:  Amomyrtus luma % missing data = 0.92
+OTU:  Amomyrtus meli % missing data = 0.92
+OTU:  Anetholea anisata % missing data = 0.92
+OTU:  Angasomyrtus salina % missing data = 0.93
+OTU:  Angophora bakeri % missing data = 0.98
+OTU:  Angophora costata % missing data = 0.84
+OTU:  Angophora euryphylla % missing data = 0.97
+OTU:  Angophora floribunda % missing data = 0.9
+OTU:  Angophora hispida % missing data = 0.82
+OTU:  Angophora leiocarpa % missing data = 0.94
+OTU:  Angophora melanoxylon % missing data = 0.97
+OTU:  Angophora robur % missing data = 0.98
+OTU:  Angophora subvelutina % missing data = 0.95
+OTU:  Angophora woodsiana % missing data = 0.98
+OTU:  Archirhodomyrtus baladensis % missing data = 0.98
+OTU:  Archirhodomyrtus beckleri % missing data = 0.91
+OTU:  Archirhodomyrtus paitensis % missing data = 0.98
+OTU:  Archirhodomyrtus turbinata % missing data = 0.98
+OTU:  Arillastrum gummiferum % missing data = 0.86
+OTU:  Astartea clavifolia % missing data = 0.95
+OTU:  Astartea fascicularis % missing data = 0.93
+OTU:  Astartea heteranthera % missing data = 0.95
+OTU:  Asteromyrtus arnhemica % missing data = 0.97
+OTU:  Asteromyrtus brassii % missing data = 0.95
+OTU:  Asteromyrtus lysicephala % missing data = 0.93
+OTU:  Asteromyrtus symphyocarpa % missing data = 0.93
+OTU:  Austromyrtus dulcis % missing data = 0.92
+OTU:  Babingtonia angusta % missing data = 0.95
+OTU:  Babingtonia behrii % missing data = 0.92
+OTU:  Babingtonia camphorosmae % missing data = 0.92
+OTU:  Babingtonia cunninghamii % missing data = 0.95
+OTU:  Babingtonia densifolia % missing data = 0.92
+OTU:  Babingtonia leratii % missing data = 0.95
+OTU:  Babingtonia tozerensis % missing data = 0.93
+OTU:  Backhousia angustifolia % missing data = 0.94
+OTU:  Backhousia bancroftii % missing data = 0.9
+OTU:  Backhousia citriodora % missing data = 0.87
+OTU:  Backhousia enata % missing data = 0.9
+OTU:  Backhousia gundarara % missing data = 0.9
+OTU:  Backhousia hughesii % missing data = 0.9
+OTU:  Backhousia kingii % missing data = 0.94
+OTU:  Backhousia leptopetala % missing data = 0.9
+OTU:  Backhousia myrtifolia % missing data = 0.87
+OTU:  Backhousia oligantha % missing data = 0.94
+OTU:  Backhousia sciadophora % missing data = 0.9
+OTU:  Backhousia subargentea % missing data = 0.9
+OTU:  Backhousia tetraptera % missing data = 0.9
+OTU:  Baeckea astarteoides % missing data = 0.95
+OTU:  Baeckea brevifolia % missing data = 0.95
+OTU:  Baeckea corynophylla % missing data = 0.95
+OTU:  Baeckea crassifolia % missing data = 0.95
+OTU:  Baeckea diosmifolia % missing data = 0.99
+OTU:  Baeckea ericaea % missing data = 0.95
+OTU:  Baeckea frutescens % missing data = 0.93
+OTU:  Baeckea grandibracteata % missing data = 0.95
+OTU:  Baeckea grandis % missing data = 0.95
+OTU:  Baeckea imbricata % missing data = 0.95
+OTU:  Baeckea linifolia % missing data = 0.93
+OTU:  Baeckea ovalifolia % missing data = 0.92
+OTU:  Baeckea pentagonantha % missing data = 0.92
+OTU:  Baeckea ramosissima % missing data = 0.98
+OTU:  Baeckea sp. % missing data = 0.92
+OTU:  Baeckea tetragona % missing data = 0.95
+OTU:  Baeckea tuberculata % missing data = 0.92
+OTU:  Baeckea uncinella % missing data = 0.95
+OTU:  Balaustion pulcherrimum % missing data = 0.95
+OTU:  Barongia lophandra % missing data = 0.97
+OTU:  Beaufortia heterophylla % missing data = 0.97
+OTU:  Beaufortia orbifolia % missing data = 0.92
+OTU:  Beaufortia sparsa % missing data = 0.94
+OTU:  Blepharocalyx cruckshanksii % missing data = 0.89
+OTU:  Blepharocalyx salicifolius % missing data = 0.88
+OTU:  Blepharocalyx tweediei % missing data = 0.95
+OTU:  Callistemon acuminatus % missing data = 0.97
+OTU:  Callistemon buseanum % missing data = 0.97
+OTU:  Callistemon citrinus % missing data = 0.86
+OTU:  Callistemon comboynensis % missing data = 0.94
+OTU:  Callistemon glaucus % missing data = 0.97
+OTU:  Callistemon gnidioides % missing data = 0.97
+OTU:  Callistemon lanceolatus % missing data = 0.95
+OTU:  Callistemon linearis % missing data = 0.94
+OTU:  Callistemon pachyphyllus % missing data = 0.98
+OTU:  Callistemon pallidus % missing data = 0.97
+OTU:  Callistemon pancheri % missing data = 0.97
+OTU:  Callistemon pearsonii % missing data = 0.97
+OTU:  Callistemon phoeniceus % missing data = 0.97
+OTU:  Callistemon pinifolius % missing data = 0.99
+OTU:  Callistemon pityoides % missing data = 0.97
+OTU:  Callistemon polandii % missing data = 0.89
+OTU:  Callistemon rigidus % missing data = 0.98
+OTU:  Callistemon rugulosus % missing data = 0.97
+OTU:  Callistemon salignus % missing data = 0.94
+OTU:  Callistemon suberosum % missing data = 0.99
+OTU:  Callistemon subulatus % missing data = 0.97
+OTU:  Callistemon teretifolius % missing data = 0.99
+OTU:  Callistemon viminalis % missing data = 0.92
+OTU:  Callistemon viridiflorus % missing data = 0.97
+OTU:  Callisthene fasciculata % missing data = 0.97
+OTU:  Callisthene major % missing data = 0.98
+OTU:  Calothamnus asper % missing data = 0.97
+OTU:  Calothamnus gilesii % missing data = 0.98
+OTU:  Calothamnus gracilis % missing data = 0.97
+OTU:  Calothamnus oldfieldii % missing data = 0.97
+OTU:  Calothamnus quadrifidus % missing data = 0.86
+OTU:  Calothamnus rupestris % missing data = 0.95
+OTU:  Calothamnus sanguineus % missing data = 0.94
+OTU:  Calothamnus validus % missing data = 0.93
+OTU:  Calycolpus moritzianus % missing data = 0.96
+OTU:  Calyptranthes clusiifolia % missing data = 0.95
+OTU:  Calyptranthes concinna % missing data = 0.9
+OTU:  Calyptranthes grandifolia % missing data = 0.91
+OTU:  Calyptranthes kiaerskovii % missing data = 0.91
+OTU:  Calyptranthes lanceolata % missing data = 0.94
+OTU:  Calyptranthes pallens % missing data = 0.95
+OTU:  Calyptranthes speciosa % missing data = 0.98
+OTU:  Calyptranthes thomasiana % missing data = 0.94
+OTU:  Calytrix tetragona % missing data = 0.91
+OTU:  Campomanesia guazumifolia % missing data = 0.9
+OTU:  Campomanesia pubescens % missing data = 0.95
+OTU:  Campomanesia sp. % missing data = 0.92
+OTU:  Carpolepis elegans % missing data = 0.95
+OTU:  Carpolepis laurifolia % missing data = 0.98
+OTU:  Carpolepis tardiflora % missing data = 0.98
+OTU:  Chamelaucium brevifolium % missing data = 0.97
+OTU:  Chamelaucium ciliatum % missing data = 0.97
+OTU:  Chamelaucium drummondii % missing data = 0.97
+OTU:  Chamelaucium erythrochloirum % missing data = 0.97
+OTU:  Chamelaucium floriferum % missing data = 0.97
+OTU:  Chamelaucium forrestii % missing data = 0.97
+OTU:  Chamelaucium griffinii % missing data = 0.97
+OTU:  Chamelaucium hamatum % missing data = 0.97
+OTU:  Chamelaucium juniperinum % missing data = 0.97
+OTU:  Chamelaucium marchantii % missing data = 0.97
+OTU:  Chamelaucium megalopetalum % missing data = 0.95
+OTU:  Chamelaucium roycei % missing data = 0.97
+OTU:  Chamelaucium uncinatum % missing data = 0.94
+OTU:  Chamguava schippii % missing data = 0.95
+OTU:  Choricarpia subargentea % missing data = 0.92
+OTU:  Cloezia floribunda % missing data = 0.94
+OTU:  Conothamnus trinervis % missing data = 0.97
+OTU:  Corymbia abbreviata % missing data = 0.98
+OTU:  Corymbia abergiana % missing data = 0.97
+OTU:  Corymbia aff. % missing data = 0.98
+OTU:  Corymbia aparrerinja % missing data = 0.98
+OTU:  Corymbia aureola % missing data = 0.97
+OTU:  Corymbia bella % missing data = 0.98
+OTU:  Corymbia bleeseri % missing data = 0.98
+OTU:  Corymbia bloxsomei % missing data = 0.97
+OTU:  Corymbia brachycarpa % missing data = 0.97
+OTU:  Corymbia bunites % missing data = 0.97
+OTU:  Corymbia cadophora % missing data = 0.97
+OTU:  Corymbia calophylla % missing data = 0.89
+OTU:  Corymbia candida % missing data = 0.96
+OTU:  Corymbia capricornia % missing data = 0.98
+OTU:  Corymbia catenaria % missing data = 0.97
+OTU:  Corymbia chillagoensis % missing data = 0.96
+OTU:  Corymbia citriodora % missing data = 0.9
+OTU:  Corymbia clarksoniana % missing data = 0.99
+OTU:  Corymbia collina % missing data = 0.97
+OTU:  Corymbia dallachiana % missing data = 0.99
+OTU:  Corymbia dampieri % missing data = 0.97
+OTU:  Corymbia dendromerinx % missing data = 0.97
+OTU:  Corymbia deserticola % missing data = 0.97
+OTU:  Corymbia dimorpha % missing data = 0.93
+OTU:  Corymbia dolichocarpa % missing data = 0.97
+OTU:  Corymbia eximia % missing data = 0.94
+OTU:  Corymbia ficifolia % missing data = 0.94
+OTU:  Corymbia flavescens % missing data = 0.99
+OTU:  Corymbia greeniana % missing data = 0.98
+OTU:  Corymbia gummifera % missing data = 0.94
+OTU:  Corymbia haematoxylon % missing data = 0.97
+OTU:  Corymbia hamersleyana % missing data = 0.95
+OTU:  Corymbia hendersonii % missing data = 0.97
+OTU:  Corymbia henryi % missing data = 0.93
+OTU:  Corymbia intermedia % missing data = 0.94
+OTU:  Corymbia jacobsiana % missing data = 0.98
+OTU:  Corymbia leichhardtii % missing data = 0.93
+OTU:  Corymbia leptoloma % missing data = 0.97
+OTU:  Corymbia ligans % missing data = 0.97
+OTU:  Corymbia maculata % missing data = 0.9
+OTU:  Corymbia nesophila % missing data = 0.98
+OTU:  Corymbia opaca % missing data = 0.97
+OTU:  Corymbia opacula % missing data = 0.98
+OTU:  Corymbia papuana % missing data = 0.94
+OTU:  Corymbia peltata % missing data = 0.97
+OTU:  Corymbia petalophylla % missing data = 0.97
+OTU:  Corymbia polycarpa % missing data = 0.97
+OTU:  Corymbia porphyritica % missing data = 0.99
+OTU:  Corymbia porrecta % missing data = 0.98
+OTU:  Corymbia ptychocarpa % missing data = 0.93
+OTU:  Corymbia rhodops % missing data = 0.93
+OTU:  Corymbia scabrida % missing data = 0.97
+OTU:  Corymbia stockeri % missing data = 0.99
+OTU:  Corymbia terminalis % missing data = 0.97
+OTU:  Corymbia tessellaris % missing data = 0.94
+OTU:  Corymbia torelliana % missing data = 0.92
+OTU:  Corymbia trachyphloia % missing data = 0.97
+OTU:  Corymbia variegata % missing data = 0.94
+OTU:  Corymbia watsoniana % missing data = 0.97
+OTU:  Corymbia xanthope % missing data = 0.97
+OTU:  Corymbia zygophylla % missing data = 0.97
+OTU:  Darwinia capitellata % missing data = 0.95
+OTU:  Darwinia fascicularis % missing data = 0.93
+OTU:  Darwinia meeboldii % missing data = 0.97
+OTU:  Darwinia taxifolia % missing data = 0.98
+OTU:  Darwinia vestita % missing data = 0.95
+OTU:  Decaspermum gracilentum % missing data = 0.95
+OTU:  Decaspermum humile % missing data = 0.89
+OTU:  Decaspermum sp. % missing data = 0.98
+OTU:  E.gunnii CAD % missing data = 0.95
+OTU:  E.gunnii CCR % missing data = 0.96
+OTU:  E.gunnii CCR1 % missing data = 0.96
+OTU:  E.gunnii OMT % missing data = 0.97
+OTU:  E.gunnii mRNA % missing data = 0.91
+OTU:  Eremaea beaufortioides % missing data = 0.97
+OTU:  Erisma floribunda % missing data = 0.96
+OTU:  Erisma floribundum % missing data = 0.93
+OTU:  Erisma uncinatum % missing data = 0.94
+OTU:  Erismadelphus exsul % missing data = 0.93
+OTU:  Erismadelphus sessilis % missing data = 0.95
+OTU:  Eucalyptopsis papuana % missing data = 0.9
+OTU:  Eucalyptus acies % missing data = 0.97
+OTU:  Eucalyptus aff. % missing data = 0.96
+OTU:  Eucalyptus alba % missing data = 0.94
+OTU:  Eucalyptus albens % missing data = 0.98
+OTU:  Eucalyptus amygdalina % missing data = 0.94
+OTU:  Eucalyptus aquilina % missing data = 0.97
+OTU:  Eucalyptus archeri % missing data = 0.98
+OTU:  Eucalyptus arenacea % missing data = 0.98
+OTU:  Eucalyptus aromaphloia % missing data = 0.98
+OTU:  Eucalyptus baileyana % missing data = 0.92
+OTU:  Eucalyptus balladoniensis % missing data = 0.98
+OTU:  Eucalyptus balladoninesis % missing data = 0.98
+OTU:  Eucalyptus barberi % missing data = 0.98
+OTU:  Eucalyptus baxteri % missing data = 0.98
+OTU:  Eucalyptus bicostata % missing data = 0.95
+OTU:  Eucalyptus biterranea % missing data = 0.98
+OTU:  Eucalyptus blakelyi % missing data = 0.96
+OTU:  Eucalyptus bosistoana % missing data = 0.94
+OTU:  Eucalyptus botryoides % missing data = 0.85
+OTU:  Eucalyptus brachyandra % missing data = 0.95
+OTU:  Eucalyptus brassiana % missing data = 0.94
+OTU:  Eucalyptus brevistylis % missing data = 0.97
+OTU:  Eucalyptus brockwayi % missing data = 0.98
+OTU:  Eucalyptus buprestium % missing data = 0.97
+OTU:  Eucalyptus calcicola % missing data = 0.97
+OTU:  Eucalyptus calophylla % missing data = 0.99
+OTU:  Eucalyptus camaldulensis % missing data = 0.45
+OTU:  Eucalyptus ceracea % missing data = 0.96
+OTU:  Eucalyptus chartaboma % missing data = 0.96
+OTU:  Eucalyptus chloroclada % missing data = 0.96
+OTU:  Eucalyptus citriodora % missing data = 0.99
+OTU:  Eucalyptus cladocalyx % missing data = 0.75
+OTU:  Eucalyptus cloeziana % missing data = 0.93
+OTU:  Eucalyptus coccifera % missing data = 0.98
+OTU:  Eucalyptus conglomerata % missing data = 0.98
+OTU:  Eucalyptus conveniens % missing data = 0.95
+OTU:  Eucalyptus coolabah % missing data = 0.98
+OTU:  Eucalyptus cordata % missing data = 0.91
+OTU:  Eucalyptus cornuta % missing data = 0.98
+OTU:  Eucalyptus corticosa % missing data = 0.98
+OTU:  Eucalyptus cosmophylla % missing data = 0.98
+OTU:  Eucalyptus crebra % missing data = 0.95
+OTU:  Eucalyptus croajingolensis % missing data = 0.98
+OTU:  Eucalyptus cupularis % missing data = 0.96
+OTU:  Eucalyptus curtisii % missing data = 0.86
+OTU:  Eucalyptus dalrympleana % missing data = 0.96
+OTU:  Eucalyptus deanei % missing data = 0.96
+OTU:  Eucalyptus deglupta % missing data = 0.91
+OTU:  Eucalyptus delegatensis % missing data = 0.94
+OTU:  Eucalyptus delicata % missing data = 0.98
+OTU:  Eucalyptus deuaensis % missing data = 0.97
+OTU:  Eucalyptus deuanensis % missing data = 0.98
+OTU:  Eucalyptus diversicolor % missing data = 0.95
+OTU:  Eucalyptus diversifolia % missing data = 0.96
+OTU:  Eucalyptus dives % missing data = 0.98
+OTU:  Eucalyptus dolichocarpa % missing data = 0.99
+OTU:  Eucalyptus dundasii % missing data = 0.98
+OTU:  Eucalyptus dunnii % missing data = 0.91
+OTU:  Eucalyptus ebbanoensis % missing data = 0.95
+OTU:  Eucalyptus elata % missing data = 0.94
+OTU:  Eucalyptus erythrocorys % missing data = 0.93
+OTU:  Eucalyptus erythrophloia % missing data = 0.96
+OTU:  Eucalyptus eudesmioides % missing data = 0.97
+OTU:  Eucalyptus eudesmoides % missing data = 0.98
+OTU:  Eucalyptus eugenioides % missing data = 0.94
+OTU:  Eucalyptus exilis % missing data = 0.97
+OTU:  Eucalyptus eximia % missing data = 0.99
+OTU:  Eucalyptus extrica % missing data = 0.96
+OTU:  Eucalyptus falcata % missing data = 0.98
+OTU:  Eucalyptus fastigata % missing data = 0.85
+OTU:  Eucalyptus ficifolia % missing data = 0.99
+OTU:  Eucalyptus flindersii % missing data = 0.96
+OTU:  Eucalyptus fraxinoides % missing data = 0.94
+OTU:  Eucalyptus gamophylla % missing data = 0.95
+OTU:  Eucalyptus gigantangion % missing data = 0.96
+OTU:  Eucalyptus gittinsii % missing data = 0.96
+OTU:  Eucalyptus glaucescens % missing data = 0.98
+OTU:  Eucalyptus glaucina % missing data = 0.94
+OTU:  Eucalyptus globoidea % missing data = 0.94
+OTU:  Eucalyptus globulus % missing data = 0.24
+OTU:  Eucalyptus gomphocephala % missing data = 0.96
+OTU:  Eucalyptus gongylocarpa % missing data = 0.95
+OTU:  Eucalyptus grandis % missing data = 0.54
+OTU:  Eucalyptus guilfoylei % missing data = 0.94
+OTU:  Eucalyptus gunnii % missing data = 0.91
+OTU:  Eucalyptus haemastoma % missing data = 0.95
+OTU:  Eucalyptus haematoxylon % missing data = 0.99
+OTU:  Eucalyptus hallii % missing data = 0.94
+OTU:  Eucalyptus houseana % missing data = 0.98
+OTU:  Eucalyptus howittiana % missing data = 0.95
+OTU:  Eucalyptus imlayensis % missing data = 0.98
+OTU:  Eucalyptus infera % missing data = 0.96
+OTU:  Eucalyptus insularis % missing data = 0.97
+OTU:  Eucalyptus jacksonii % missing data = 0.95
+OTU:  Eucalyptus johnstonii % missing data = 0.98
+OTU:  Eucalyptus jucunda % missing data = 0.95
+OTU:  Eucalyptus kitsoniana % missing data = 0.95
+OTU:  Eucalyptus lacrimans % missing data = 0.97
+OTU:  Eucalyptus lansdowneana % missing data = 0.98
+OTU:  Eucalyptus latisinensis % missing data = 0.98
+OTU:  Eucalyptus lehmannii % missing data = 0.92
+OTU:  Eucalyptus leucophloia % missing data = 0.98
+OTU:  Eucalyptus leucoxylon % missing data = 0.93
+OTU:  Eucalyptus ligulata % missing data = 0.97
+OTU:  Eucalyptus lirata % missing data = 0.95
+OTU:  Eucalyptus lockyeri % missing data = 0.98
+OTU:  Eucalyptus longifolia % missing data = 0.98
+OTU:  Eucalyptus loxophleba % missing data = 0.84
+OTU:  Eucalyptus lucasii % missing data = 0.98
+OTU:  Eucalyptus macarthurii % missing data = 0.85
+OTU:  Eucalyptus maidenii % missing data = 0.98
+OTU:  Eucalyptus major % missing data = 0.96
+OTU:  Eucalyptus marginata % missing data = 0.88
+OTU:  Eucalyptus megacarpa % missing data = 0.94
+OTU:  Eucalyptus melanophloia % missing data = 0.97
+OTU:  Eucalyptus melliodora % missing data = 0.88
+OTU:  Eucalyptus michaeliana % missing data = 0.98
+OTU:  Eucalyptus microcorys % missing data = 0.9
+OTU:  Eucalyptus microtheca % missing data = 0.98
+OTU:  Eucalyptus miniata % missing data = 0.92
+OTU:  Eucalyptus mitchelliana % missing data = 0.97
+OTU:  Eucalyptus moorei % missing data = 0.97
+OTU:  Eucalyptus morrisbyi % missing data = 0.96
+OTU:  Eucalyptus muelleriana % missing data = 0.93
+OTU:  Eucalyptus nicholii % missing data = 0.94
+OTU:  Eucalyptus nitens % missing data = 0.75
+OTU:  Eucalyptus nitida % missing data = 0.97
+OTU:  Eucalyptus notabilis % missing data = 0.96
+OTU:  Eucalyptus nudicaulis % missing data = 0.96
+OTU:  Eucalyptus obliqua % missing data = 0.91
+OTU:  Eucalyptus obtusiflora % missing data = 0.98
+OTU:  Eucalyptus occidentalis % missing data = 0.98
+OTU:  Eucalyptus odontocarpa % missing data = 0.95
+OTU:  Eucalyptus optima % missing data = 0.98
+OTU:  Eucalyptus ovata % missing data = 0.93
+OTU:  Eucalyptus pachycalyx % missing data = 0.98
+OTU:  Eucalyptus pachyloma % missing data = 0.97
+OTU:  Eucalyptus pachyphylla % missing data = 0.98
+OTU:  Eucalyptus paliformis % missing data = 0.97
+OTU:  Eucalyptus pallida % missing data = 0.95
+OTU:  Eucalyptus paludicola % missing data = 0.98
+OTU:  Eucalyptus papuana % missing data = 0.99
+OTU:  Eucalyptus patens % missing data = 0.97
+OTU:  Eucalyptus pauciflora % missing data = 0.9
+OTU:  Eucalyptus pellita % missing data = 0.96
+OTU:  Eucalyptus perriniana % missing data = 0.88
+OTU:  Eucalyptus petiolaris % missing data = 0.98
+OTU:  Eucalyptus phoenicea % missing data = 0.95
+OTU:  Eucalyptus pilularis % missing data = 0.39
+OTU:  Eucalyptus piperita % missing data = 0.98
+OTU:  Eucalyptus planchoniana % missing data = 0.96
+OTU:  Eucalyptus platydisca % missing data = 0.97
+OTU:  Eucalyptus platyphylla % missing data = 0.95
+OTU:  Eucalyptus pleurocarpa % missing data = 0.96
+OTU:  Eucalyptus polyanthemos % missing data = 0.98
+OTU:  Eucalyptus populnea % missing data = 0.98
+OTU:  Eucalyptus porosa % missing data = 0.98
+OTU:  Eucalyptus preissiana % missing data = 0.96
+OTU:  Eucalyptus pseudoglobulus % missing data = 0.98
+OTU:  Eucalyptus pulchella % missing data = 0.94
+OTU:  Eucalyptus pulverulenta % missing data = 0.94
+OTU:  Eucalyptus pumila % missing data = 0.98
+OTU:  Eucalyptus punctata % missing data = 0.96
+OTU:  Eucalyptus pyrocarpa % missing data = 0.48
+OTU:  Eucalyptus racemosa % missing data = 0.99
+OTU:  Eucalyptus radiata % missing data = 0.94
+OTU:  Eucalyptus raveretiana % missing data = 0.95
+OTU:  Eucalyptus regnans % missing data = 0.94
+OTU:  Eucalyptus remota % missing data = 0.97
+OTU:  Eucalyptus risdonii % missing data = 0.97
+OTU:  Eucalyptus robertsonii % missing data = 0.98
+OTU:  Eucalyptus robusta % missing data = 0.98
+OTU:  Eucalyptus rodwayi % missing data = 0.99
+OTU:  Eucalyptus rossii % missing data = 0.97
+OTU:  Eucalyptus roycei % missing data = 0.96
+OTU:  Eucalyptus rubida % missing data = 0.97
+OTU:  Eucalyptus rubiginosa % missing data = 0.97
+OTU:  Eucalyptus rudis % missing data = 0.96
+OTU:  Eucalyptus saligna % missing data = 0.75
+OTU:  Eucalyptus salmonophloia % missing data = 0.98
+OTU:  Eucalyptus scias % missing data = 0.96
+OTU:  Eucalyptus scoparia % missing data = 0.98
+OTU:  Eucalyptus selachiana % missing data = 0.95
+OTU:  Eucalyptus sepulcralis % missing data = 0.97
+OTU:  Eucalyptus serraensis % missing data = 0.96
+OTU:  Eucalyptus shirleyi % missing data = 0.97
+OTU:  Eucalyptus siderophloia % missing data = 0.98
+OTU:  Eucalyptus sieberi % missing data = 0.98
+OTU:  Eucalyptus similis % missing data = 0.96
+OTU:  Eucalyptus smithii % missing data = 0.91
+OTU:  Eucalyptus sp. % missing data = 0.95
+OTU:  Eucalyptus spathulata % missing data = 0.98
+OTU:  Eucalyptus spectatrix % missing data = 0.97
+OTU:  Eucalyptus sphaerocarpa % missing data = 0.97
+OTU:  Eucalyptus staeri % missing data = 0.98
+OTU:  Eucalyptus stenostoma % missing data = 0.98
+OTU:  Eucalyptus stoatei % missing data = 0.95
+OTU:  Eucalyptus suberea % missing data = 0.97
+OTU:  Eucalyptus tenuipes % missing data = 0.92
+OTU:  Eucalyptus tenuiramis % missing data = 0.98
+OTU:  Eucalyptus tereticornis % missing data = 0.68
+OTU:  Eucalyptus tessellaris % missing data = 0.99
+OTU:  Eucalyptus tetragona % missing data = 0.9
+OTU:  Eucalyptus tetrodonta % missing data = 0.95
+OTU:  Eucalyptus tindaliae % missing data = 0.98
+OTU:  Eucalyptus todtiana % missing data = 0.97
+OTU:  Eucalyptus torquata % missing data = 0.98
+OTU:  Eucalyptus triflora % missing data = 0.97
+OTU:  Eucalyptus umbra % missing data = 0.97
+OTU:  Eucalyptus urnigera % missing data = 0.98
+OTU:  Eucalyptus urophylla % missing data = 0.51
+OTU:  Eucalyptus vernicosa % missing data = 0.99
+OTU:  Eucalyptus verrucata % missing data = 0.96
+OTU:  Eucalyptus vicina % missing data = 0.94
+OTU:  Eucalyptus victoriana % missing data = 0.98
+OTU:  Eucalyptus viminalis % missing data = 0.91
+OTU:  Eucalyptus wandoo % missing data = 0.98
+OTU:  Eucalyptus wetarensis % missing data = 0.98
+OTU:  Eucalyptus willisii % missing data = 0.96
+OTU:  Eucalyptus woodwardii % missing data = 0.98
+OTU:  Eugenia albanensis % missing data = 0.91
+OTU:  Eugenia arenosa % missing data = 0.94
+OTU:  Eugenia astringens % missing data = 0.95
+OTU:  Eugenia axillaris % missing data = 0.94
+OTU:  Eugenia bacopari % missing data = 0.94
+OTU:  Eugenia beaurepairiana % missing data = 0.94
+OTU:  Eugenia biflora % missing data = 0.95
+OTU:  Eugenia bimarginata % missing data = 0.95
+OTU:  Eugenia bocainensis % missing data = 0.95
+OTU:  Eugenia brasiliensis % missing data = 0.94
+OTU:  Eugenia brevistyla % missing data = 0.95
+OTU:  Eugenia brongniartiana % missing data = 0.95
+OTU:  Eugenia burkartiana % missing data = 0.95
+OTU:  Eugenia calycina % missing data = 0.95
+OTU:  Eugenia capensis % missing data = 0.91
+OTU:  Eugenia capparidifolia % missing data = 0.96
+OTU:  Eugenia cerasiflora % missing data = 0.96
+OTU:  Eugenia cf. % missing data = 0.97
+OTU:  Eugenia coffeifolia % missing data = 0.92
+OTU:  Eugenia coloradoensis % missing data = 0.93
+OTU:  Eugenia convexinervia % missing data = 0.95
+OTU:  Eugenia crassipetala % missing data = 0.96
+OTU:  Eugenia cucullata % missing data = 0.95
+OTU:  Eugenia cuprea % missing data = 0.95
+OTU:  Eugenia cupulata % missing data = 0.98
+OTU:  Eugenia domingensis % missing data = 0.93
+OTU:  Eugenia dysenterica % missing data = 0.92
+OTU:  Eugenia eggersii % missing data = 0.93
+OTU:  Eugenia erythrophylla % missing data = 0.91
+OTU:  Eugenia excelsa % missing data = 0.95
+OTU:  Eugenia fasciculata % missing data = 0.99
+OTU:  Eugenia feijoi % missing data = 0.95
+OTU:  Eugenia florida % missing data = 0.94
+OTU:  Eugenia foetida % missing data = 0.96
+OTU:  Eugenia galalonensis % missing data = 0.98
+OTU:  Eugenia greggii % missing data = 0.96
+OTU:  Eugenia hiemalis % missing data = 0.95
+OTU:  Eugenia hyemalis % missing data = 0.95
+OTU:  Eugenia hypargyrea % missing data = 0.95
+OTU:  Eugenia incerta % missing data = 0.99
+OTU:  Eugenia involucrata % missing data = 0.93
+OTU:  Eugenia langsdorffii % missing data = 0.98
+OTU:  Eugenia latifolia % missing data = 0.95
+OTU:  Eugenia lucida % missing data = 0.95
+OTU:  Eugenia macrocalyx % missing data = 0.89
+OTU:  Eugenia mattosii % missing data = 0.95
+OTU:  Eugenia melanogyna % missing data = 0.95
+OTU:  Eugenia microphylla % missing data = 0.96
+OTU:  Eugenia modesta % missing data = 0.97
+OTU:  Eugenia monticola % missing data = 0.95
+OTU:  Eugenia multicostata % missing data = 0.95
+OTU:  Eugenia natalitia % missing data = 0.91
+OTU:  Eugenia neoaustralis % missing data = 0.95
+OTU:  Eugenia neoglomerata % missing data = 0.91
+OTU:  Eugenia neomyrtifolia % missing data = 0.95
+OTU:  Eugenia neoverrucosa % missing data = 0.95
+OTU:  Eugenia nesiotica % missing data = 0.93
+OTU:  Eugenia nutans % missing data = 0.95
+OTU:  Eugenia oblongata % missing data = 0.95
+OTU:  Eugenia oerstediana % missing data = 0.95
+OTU:  Eugenia orbiculata % missing data = 0.94
+OTU:  Eugenia orbignyana % missing data = 0.95
+OTU:  Eugenia patens % missing data = 0.95
+OTU:  Eugenia patrisii % missing data = 0.98
+OTU:  Eugenia pisiformis % missing data = 0.95
+OTU:  Eugenia pitanga % missing data = 0.95
+OTU:  Eugenia pluriflora % missing data = 0.95
+OTU:  Eugenia prasina % missing data = 0.95
+OTU:  Eugenia pseudopsidium % missing data = 0.95
+OTU:  Eugenia punicifolia % missing data = 0.95
+OTU:  Eugenia pyriformis % missing data = 0.94
+OTU:  Eugenia ramboi % missing data = 0.95
+OTU:  Eugenia reinwardtiana % missing data = 0.96
+OTU:  Eugenia repanda % missing data = 0.95
+OTU:  Eugenia rostrifolia % missing data = 0.95
+OTU:  Eugenia salamensis % missing data = 0.95
+OTU:  Eugenia schuechiana % missing data = 0.95
+OTU:  Eugenia simii % missing data = 0.96
+OTU:  Eugenia sp. % missing data = 0.88
+OTU:  Eugenia speciosa % missing data = 0.95
+OTU:  Eugenia sphenophylla % missing data = 0.95
+OTU:  Eugenia stahlii % missing data = 0.93
+OTU:  Eugenia stictosepala % missing data = 0.95
+OTU:  Eugenia stigmatosa % missing data = 0.95
+OTU:  Eugenia stipitata % missing data = 0.95
+OTU:  Eugenia subavenia % missing data = 0.95
+OTU:  Eugenia subterminalis % missing data = 0.97
+OTU:  Eugenia sulcata % missing data = 0.9
+OTU:  Eugenia talbotii % missing data = 0.93
+OTU:  Eugenia tapacumensis % missing data = 0.98
+OTU:  Eugenia tetramera % missing data = 0.94
+OTU:  Eugenia tinifolia % missing data = 0.95
+OTU:  Eugenia tropophylla % missing data = 0.96
+OTU:  Eugenia truncata % missing data = 0.98
+OTU:  Eugenia umbrosa % missing data = 0.95
+OTU:  Eugenia umtamvunensis % missing data = 0.92
+OTU:  Eugenia uniflora % missing data = 0.84
+OTU:  Eugenia uruguayensis % missing data = 0.95
+OTU:  Eugenia verdoorniae % missing data = 0.91
+OTU:  Eugenia verticillata % missing data = 0.95
+OTU:  Eugenia wentii % missing data = 0.95
+OTU:  Eugenia woodii % missing data = 0.91
+OTU:  Eugenia zeyheri % missing data = 0.91
+OTU:  Eugenia zuluensis % missing data = 0.92
+OTU:  Euryomyrtus leptospermoides % missing data = 0.95
+OTU:  Euryomyrtus maidenii % missing data = 0.95
+OTU:  Euryomyrtus ramosissima % missing data = 0.93
+OTU:  Feijoa sellowiana % missing data = 0.95
+OTU:  Gomidesia affinis % missing data = 0.91
+OTU:  Gomidesia fenzliana % missing data = 0.95
+OTU:  Gomidesia flagellaris % missing data = 0.9
+OTU:  Gomidesia schaueriana % missing data = 0.91
+OTU:  Gomidesia tijucensis % missing data = 0.95
+OTU:  Gossia dallachiana % missing data = 0.99
+OTU:  Gossia grayi % missing data = 0.95
+OTU:  Gossia hillii % missing data = 0.94
+OTU:  Gossia inophloia % missing data = 0.95
+OTU:  Gossia shepherdii % missing data = 0.98
+OTU:  Heteropyxis natalensis % missing data = 0.87
+OTU:  Heteropyxis natalensis. % missing data = 0.98
+OTU:  Hexachlamys boliviana % missing data = 0.97
+OTU:  Hexachlamys edulis % missing data = 0.9
+OTU:  Hexachlamys emerichii % missing data = 0.97
+OTU:  Hexachlamys excelsa % missing data = 0.97
+OTU:  Hexachlamys hamiltonii % missing data = 0.94
+OTU:  Hexachlamys humilis % missing data = 0.95
+OTU:  Hexachlamys itatiaiensis % missing data = 0.94
+OTU:  Homalocalyx aurea % missing data = 0.91
+OTU:  Homalocalyx polyandrus % missing data = 0.97
+OTU:  Homalospermum firmum % missing data = 0.93
+OTU:  Homoranthus darwinioides % missing data = 0.93
+OTU:  Homoranthus tropicus % missing data = 0.97
+OTU:  Hypocalymma angustifolium % missing data = 0.93
+OTU:  Hypocalymma cordifolium % missing data = 0.95
+OTU:  Hypocalymma linifolium % missing data = 0.93
+OTU:  Hypocalymma speciosum % missing data = 0.95
+OTU:  Hypocalymma strictum % missing data = 0.95
+OTU:  Kanakomyrtus dawsoniana % missing data = 0.98
+OTU:  Kanakomyrtus longipetiolata % missing data = 0.98
+OTU:  Kanakomyrtus prominens % missing data = 0.98
+OTU:  Kania eugenioides % missing data = 0.97
+OTU:  Kardomia granitica % missing data = 0.92
+OTU:  Kardomia jucunda % missing data = 0.92
+OTU:  Kardomia odontocalyx % missing data = 0.92
+OTU:  Kardomia prominens % missing data = 0.92
+OTU:  Kardomia silvestris % missing data = 0.94
+OTU:  Kardomia squarrulosa % missing data = 0.92
+OTU:  Kjellbergiodendron celebicum % missing data = 0.93
+OTU:  Kunzea aff. % missing data = 0.96
+OTU:  Kunzea affinis % missing data = 0.97
+OTU:  Kunzea ambigua % missing data = 0.93
+OTU:  Kunzea baxteri % missing data = 0.86
+OTU:  Kunzea bracteolata % missing data = 0.97
+OTU:  Kunzea calida % missing data = 0.97
+OTU:  Kunzea cambagei % missing data = 0.97
+OTU:  Kunzea capitata % missing data = 0.9
+OTU:  Kunzea ciliata % missing data = 0.97
+OTU:  Kunzea ericifolia % missing data = 0.94
+OTU:  Kunzea ericoides % missing data = 0.93
+OTU:  Kunzea flavescens % missing data = 0.97
+OTU:  Kunzea glabrescens % missing data = 0.97
+OTU:  Kunzea graniticola % missing data = 0.97
+OTU:  Kunzea jucunda % missing data = 0.97
+OTU:  Kunzea leptospermoides % missing data = 0.97
+OTU:  Kunzea micrantha % missing data = 0.97
+OTU:  Kunzea montana % missing data = 0.93
+OTU:  Kunzea muelleri % missing data = 0.97
+OTU:  Kunzea obovata % missing data = 0.97
+OTU:  Kunzea opposita % missing data = 0.97
+OTU:  Kunzea parvifolia % missing data = 0.97
+OTU:  Kunzea pauciflora % missing data = 0.97
+OTU:  Kunzea peduncularis % missing data = 0.97
+OTU:  Kunzea pelagia % missing data = 0.97
+OTU:  Kunzea phylicioides % missing data = 0.97
+OTU:  Kunzea pomifera % missing data = 0.97
+OTU:  Kunzea preissiana % missing data = 0.93
+OTU:  Kunzea pulchella % missing data = 0.88
+OTU:  Kunzea recurva % missing data = 0.97
+OTU:  Kunzea rostrata % missing data = 0.97
+OTU:  Kunzea rupestris % missing data = 0.97
+OTU:  Kunzea sinclairii % missing data = 0.93
+OTU:  Kunzea sp. % missing data = 0.97
+OTU:  Kunzea sulphurea % missing data = 0.97
+OTU:  Kunzea vestita % missing data = 0.92
+OTU:  Lamarchea hakeifolia % missing data = 0.97
+OTU:  Legrandia concinna % missing data = 0.92
+OTU:  Lenwebbia lasioclada % missing data = 0.98
+OTU:  Lenwebbia prominens % missing data = 0.97
+OTU:  Leptospermum coriaceum % missing data = 0.98
+OTU:  Leptospermum epacridoideum % missing data = 0.95
+OTU:  Leptospermum erubescens % missing data = 0.95
+OTU:  Leptospermum grandifolium % missing data = 0.95
+OTU:  Leptospermum laevigatum % missing data = 0.93
+OTU:  Leptospermum lanigerum % missing data = 0.94
+OTU:  Leptospermum liversidgei % missing data = 0.95
+OTU:  Leptospermum madidum % missing data = 0.95
+OTU:  Leptospermum minutifolium % missing data = 0.97
+OTU:  Leptospermum obovatum % missing data = 0.97
+OTU:  Leptospermum oligandrum % missing data = 0.97
+OTU:  Leptospermum oligandrum. % missing data = 0.98
+OTU:  Leptospermum parvifolium % missing data = 0.95
+OTU:  Leptospermum petersonii % missing data = 0.93
+OTU:  Leptospermum polygalifolium % missing data = 0.92
+OTU:  Leptospermum rotundifolium % missing data = 0.97
+OTU:  Leptospermum scoparium % missing data = 0.85
+OTU:  Leptospermum semibaccatum % missing data = 0.99
+OTU:  Leptospermum sericeum % missing data = 0.97
+OTU:  Leptospermum spectabile % missing data = 0.95
+OTU:  Leptospermum spinescens % missing data = 0.95
+OTU:  Leptospermum trinervium % missing data = 0.92
+OTU:  Leptospermum wooroonooran % missing data = 0.95
+OTU:  Lindsayomyrtus racemoides % missing data = 0.91
+OTU:  Lithomyrtus obtusa % missing data = 0.98
+OTU:  Lophomyrtus bullata % missing data = 0.91
+OTU:  Lophomyrtus obcordata % missing data = 0.92
+OTU:  Lophostemon confertus % missing data = 0.84
+OTU:  Lophostemon suaveolens % missing data = 0.95
+OTU:  Luma apiculata % missing data = 0.86
+OTU:  Luma chequen % missing data = 0.89
+OTU:  Lysicarpus angustifolius % missing data = 0.95
+OTU:  Malleostemon roseus % missing data = 0.95
+OTU:  Marlierea clausseniana % missing data = 0.94
+OTU:  Marlierea eugeniopsoides % missing data = 0.89
+OTU:  Marlierea excoriata % missing data = 0.94
+OTU:  Marlierea glazioviana % missing data = 0.94
+OTU:  Marlierea obscura % missing data = 0.91
+OTU:  Marlierea obversa % missing data = 0.94
+OTU:  Marlierea racemosa % missing data = 0.9
+OTU:  Marlierea regeliana % missing data = 0.94
+OTU:  Marlierea suaveolens % missing data = 0.94
+OTU:  Marlierea sucrei % missing data = 0.94
+OTU:  Marlierea tomentosa % missing data = 0.94
+OTU:  Melaleuca acacioides % missing data = 0.93
+OTU:  Melaleuca adnata % missing data = 0.95
+OTU:  Melaleuca aff. % missing data = 0.97
+OTU:  Melaleuca alternifolia % missing data = 0.89
+OTU:  Melaleuca apodocephala % missing data = 0.98
+OTU:  Melaleuca arcana % missing data = 0.93
+OTU:  Melaleuca argentea % missing data = 0.93
+OTU:  Melaleuca armillaris % missing data = 0.94
+OTU:  Melaleuca brachyandra % missing data = 0.98
+OTU:  Melaleuca bracteata % missing data = 0.94
+OTU:  Melaleuca brevifolia % missing data = 0.99
+OTU:  Melaleuca brongniartii % missing data = 0.97
+OTU:  Melaleuca brophyi % missing data = 0.98
+OTU:  Melaleuca cajuputi % missing data = 0.89
+OTU:  Melaleuca capitata % missing data = 0.98
+OTU:  Melaleuca citrolens % missing data = 0.97
+OTU:  Melaleuca conothamnoides % missing data = 0.98
+OTU:  Melaleuca cordata % missing data = 0.98
+OTU:  Melaleuca cornucopiae % missing data = 0.93
+OTU:  Melaleuca coronicarpa % missing data = 0.98
+OTU:  Melaleuca ctenoides % missing data = 0.98
+OTU:  Melaleuca cuticularis % missing data = 0.98
+OTU:  Melaleuca dealbata % missing data = 0.97
+OTU:  Melaleuca deanei % missing data = 0.98
+OTU:  Melaleuca decussata % missing data = 0.99
+OTU:  Melaleuca diosmifolia % missing data = 0.94
+OTU:  Melaleuca eleuterostachya % missing data = 0.98
+OTU:  Melaleuca ericifolia % missing data = 0.97
+OTU:  Melaleuca foliolosa % missing data = 0.97
+OTU:  Melaleuca fulgens % missing data = 0.98
+OTU:  Melaleuca gibbosa % missing data = 0.97
+OTU:  Melaleuca glomerata % missing data = 0.9
+OTU:  Melaleuca gnidioides % missing data = 0.97
+OTU:  Melaleuca halmaturorum % missing data = 0.98
+OTU:  Melaleuca howeana % missing data = 0.99
+OTU:  Melaleuca hypericifolia % missing data = 0.97
+OTU:  Melaleuca lanceolata % missing data = 0.95
+OTU:  Melaleuca lasiandra % missing data = 0.97
+OTU:  Melaleuca lateritia % missing data = 0.99
+OTU:  Melaleuca leucadendra % missing data = 0.93
+OTU:  Melaleuca linariifolia % missing data = 0.94
+OTU:  Melaleuca minutifolia % missing data = 0.99
+OTU:  Melaleuca nervosa % missing data = 0.93
+OTU:  Melaleuca nesophila % missing data = 0.92
+OTU:  Melaleuca nodosa % missing data = 0.94
+OTU:  Melaleuca pauperiflora % missing data = 0.99
+OTU:  Melaleuca preissiana % missing data = 0.97
+OTU:  Melaleuca pulchella % missing data = 0.99
+OTU:  Melaleuca pustulata % missing data = 0.97
+OTU:  Melaleuca quinquenervia % missing data = 0.83
+OTU:  Melaleuca saligna % missing data = 0.97
+OTU:  Melaleuca sericea % missing data = 0.97
+OTU:  Melaleuca sp. % missing data = 0.97
+OTU:  Melaleuca spathulata % missing data = 0.97
+OTU:  Melaleuca stenostachya % missing data = 0.95
+OTU:  Melaleuca strobophylla % missing data = 0.98
+OTU:  Melaleuca styphelioides % missing data = 0.97
+OTU:  Melaleuca thymifolia % missing data = 0.97
+OTU:  Melaleuca thyoides % missing data = 0.99
+OTU:  Melaleuca trichostachya % missing data = 0.97
+OTU:  Melaleuca uncinata % missing data = 0.95
+OTU:  Melaleuca viminea % missing data = 0.98
+OTU:  Melaleuca viridiflora % missing data = 0.88
+OTU:  Melaleuca wilsonii % missing data = 0.99
+OTU:  Melaleuca zeteticorum % missing data = 0.98
+OTU:  Metrosideros albiflora % missing data = 0.94
+OTU:  Metrosideros angustifolia % missing data = 0.93
+OTU:  Metrosideros bartlettii % missing data = 0.94
+OTU:  Metrosideros boninensis % missing data = 0.96
+OTU:  Metrosideros brevistylis % missing data = 0.97
+OTU:  Metrosideros cacuminum % missing data = 0.97
+OTU:  Metrosideros carminea % missing data = 0.92
+OTU:  Metrosideros cf. % missing data = 0.97
+OTU:  Metrosideros cherrieri % missing data = 0.98
+OTU:  Metrosideros colensoi % missing data = 0.94
+OTU:  Metrosideros collina % missing data = 0.85
+OTU:  Metrosideros cordata % missing data = 0.97
+OTU:  Metrosideros diffusa % missing data = 0.91
+OTU:  Metrosideros dolichandra % missing data = 0.97
+OTU:  Metrosideros engleriana % missing data = 0.98
+OTU:  Metrosideros excelsa % missing data = 0.79
+OTU:  Metrosideros fulgens % missing data = 0.94
+OTU:  Metrosideros gregoryi % missing data = 0.98
+OTU:  Metrosideros halconensis % missing data = 0.97
+OTU:  Metrosideros humboldtiana % missing data = 0.98
+OTU:  Metrosideros kermadecensis % missing data = 0.92
+OTU:  Metrosideros longipetiolata % missing data = 0.97
+OTU:  Metrosideros macropus % missing data = 0.84
+OTU:  Metrosideros microphylla % missing data = 0.98
+OTU:  Metrosideros nervulosa % missing data = 0.8
+OTU:  Metrosideros nitida % missing data = 0.98
+OTU:  Metrosideros ochrantha % missing data = 0.98
+OTU:  Metrosideros operculata % missing data = 0.97
+OTU:  Metrosideros oreomyrtus % missing data = 0.98
+OTU:  Metrosideros ovata % missing data = 0.97
+OTU:  Metrosideros paniensis % missing data = 0.97
+OTU:  Metrosideros parkinsonii % missing data = 0.94
+OTU:  Metrosideros patens % missing data = 0.97
+OTU:  Metrosideros perforata % missing data = 0.92
+OTU:  Metrosideros polymorpha % missing data = 0.84
+OTU:  Metrosideros porphyrea % missing data = 0.97
+OTU:  Metrosideros punctata % missing data = 0.98
+OTU:  Metrosideros ramiflora % missing data = 0.97
+OTU:  Metrosideros robusta % missing data = 0.94
+OTU:  Metrosideros rotundifolia % missing data = 0.97
+OTU:  Metrosideros rugosa % missing data = 0.9
+OTU:  Metrosideros sclerocarpa % missing data = 0.95
+OTU:  Metrosideros sp. % missing data = 0.98
+OTU:  Metrosideros tetrasticha % missing data = 0.98
+OTU:  Metrosideros tremuloides % missing data = 0.9
+OTU:  Metrosideros umbellata % missing data = 0.93
+OTU:  Metrosideros waialealae % missing data = 0.9
+OTU:  Metrosideros whitakeri % missing data = 0.97
+OTU:  Metrosideros whiteana % missing data = 0.97
+OTU:  Micromyrtus ciliata % missing data = 0.93
+OTU:  Micromyrtus delicata % missing data = 0.95
+OTU:  Micromyrtus elobata % missing data = 0.92
+OTU:  Mitrantia bilocularis % missing data = 0.97
+OTU:  Monimiastrum globosum % missing data = 0.97
+OTU:  Monimiastrum sp. % missing data = 0.99
+OTU:  Myrceugenia alpigena % missing data = 0.89
+OTU:  Myrceugenia brevipedicellata % missing data = 0.9
+OTU:  Myrceugenia campestris % missing data = 0.9
+OTU:  Myrceugenia chrysocarpa % missing data = 0.9
+OTU:  Myrceugenia colchaguensis % missing data = 0.9
+OTU:  Myrceugenia correifolia % missing data = 0.9
+OTU:  Myrceugenia cucullata % missing data = 0.9
+OTU:  Myrceugenia euosma % missing data = 0.9
+OTU:  Myrceugenia exsucca % missing data = 0.9
+OTU:  Myrceugenia fernandeziana % missing data = 0.9
+OTU:  Myrceugenia franciscensis % missing data = 0.9
+OTU:  Myrceugenia gertii % missing data = 0.9
+OTU:  Myrceugenia glaucescens % missing data = 0.9
+OTU:  Myrceugenia kleinii % missing data = 0.9
+OTU:  Myrceugenia lanceolata % missing data = 0.89
+OTU:  Myrceugenia leptospermoides % missing data = 0.89
+OTU:  Myrceugenia miersiana % missing data = 0.9
+OTU:  Myrceugenia myrcioides % missing data = 0.89
+OTU:  Myrceugenia myrtoides % missing data = 0.9
+OTU:  Myrceugenia obtusa % missing data = 0.9
+OTU:  Myrceugenia ovalifolia % missing data = 0.9
+OTU:  Myrceugenia ovata % missing data = 0.89
+OTU:  Myrceugenia oxysepala % missing data = 0.9
+OTU:  Myrceugenia parvifolia % missing data = 0.9
+OTU:  Myrceugenia pilotantha % missing data = 0.9
+OTU:  Myrceugenia pinifolia % missing data = 0.9
+OTU:  Myrceugenia planipes % missing data = 0.89
+OTU:  Myrceugenia reitzii % missing data = 0.9
+OTU:  Myrceugenia rufa % missing data = 0.9
+OTU:  Myrceugenia rufescens % missing data = 0.9
+OTU:  Myrceugenia schulzei % missing data = 0.94
+OTU:  Myrceugenia seriatoramosa % missing data = 0.9
+OTU:  Myrceugenia smithii % missing data = 0.9
+OTU:  Myrcia acuminatissima % missing data = 0.94
+OTU:  Myrcia aff. % missing data = 0.95
+OTU:  Myrcia amazonica % missing data = 0.91
+OTU:  Myrcia anacardiifolia % missing data = 0.94
+OTU:  Myrcia anceps % missing data = 0.94
+OTU:  Myrcia bicarinata % missing data = 0.93
+OTU:  Myrcia bracteata % missing data = 0.94
+OTU:  Myrcia brasiliensis % missing data = 0.94
+OTU:  Myrcia citrifolia % missing data = 0.95
+OTU:  Myrcia clavija % missing data = 0.92
+OTU:  Myrcia coumeta % missing data = 0.89
+OTU:  Myrcia coumete % missing data = 0.99
+OTU:  Myrcia decorticans % missing data = 0.9
+OTU:  Myrcia deflexa % missing data = 0.93
+OTU:  Myrcia eriopus % missing data = 0.94
+OTU:  Myrcia eumecephylla % missing data = 0.94
+OTU:  Myrcia fallax % missing data = 0.89
+OTU:  Myrcia flagellaris % missing data = 0.99
+OTU:  Myrcia gatunensis % missing data = 0.93
+OTU:  Myrcia glabra % missing data = 0.9
+OTU:  Myrcia grandiflora % missing data = 0.98
+OTU:  Myrcia guianensis % missing data = 0.94
+OTU:  Myrcia hartwegiana % missing data = 0.94
+OTU:  Myrcia hebepetala % missing data = 0.99
+OTU:  Myrcia hexasticha % missing data = 0.91
+OTU:  Myrcia inaequiloba % missing data = 0.91
+OTU:  Myrcia insularis % missing data = 0.98
+OTU:  Myrcia isaiana % missing data = 0.91
+OTU:  Myrcia laricina % missing data = 0.95
+OTU:  Myrcia laruotteana % missing data = 0.91
+OTU:  Myrcia lenheirensis % missing data = 0.91
+OTU:  Myrcia leptoclada % missing data = 0.93
+OTU:  Myrcia magnoliifolia % missing data = 0.98
+OTU:  Myrcia micropetala % missing data = 0.95
+OTU:  Myrcia mischophylla % missing data = 0.94
+OTU:  Myrcia multiflora % missing data = 0.9
+OTU:  Myrcia mutabilis % missing data = 0.91
+OTU:  Myrcia palustris % missing data = 0.95
+OTU:  Myrcia paracatuensis % missing data = 0.99
+OTU:  Myrcia pubescens % missing data = 0.94
+OTU:  Myrcia pubipetala % missing data = 0.9
+OTU:  Myrcia pulchra % missing data = 0.91
+OTU:  Myrcia racemosa % missing data = 0.97
+OTU:  Myrcia reticulosa % missing data = 0.94
+OTU:  Myrcia retorta % missing data = 0.95
+OTU:  Myrcia rorida % missing data = 0.94
+OTU:  Myrcia rostrata % missing data = 0.94
+OTU:  Myrcia rufipes % missing data = 0.94
+OTU:  Myrcia saxatilis % missing data = 0.89
+OTU:  Myrcia selloi % missing data = 0.91
+OTU:  Myrcia sosias % missing data = 0.98
+OTU:  Myrcia sp. % missing data = 0.95
+OTU:  Myrcia spectabilis % missing data = 0.94
+OTU:  Myrcia splendens % missing data = 0.9
+OTU:  Myrcia subverticillaris % missing data = 0.92
+OTU:  Myrcia suffruticosa % missing data = 0.94
+OTU:  Myrcia tenuivenosa % missing data = 0.91
+OTU:  Myrcia tijucensis % missing data = 0.99
+OTU:  Myrcia tomentosa % missing data = 0.94
+OTU:  Myrcia torta % missing data = 0.91
+OTU:  Myrcia variabilis % missing data = 0.91
+OTU:  Myrcia venulosa % missing data = 0.94
+OTU:  Myrcia vestita % missing data = 0.94
+OTU:  Myrcia vittoriana % missing data = 0.94
+OTU:  Myrcianthes cisplatensis % missing data = 0.87
+OTU:  Myrcianthes fragrans % missing data = 0.92
+OTU:  Myrcianthes gigantea % missing data = 0.95
+OTU:  Myrcianthes pseudomato % missing data = 0.95
+OTU:  Myrcianthes pungens % missing data = 0.95
+OTU:  Myrcianthes sp. % missing data = 0.98
+OTU:  Myrciaria aff. % missing data = 0.97
+OTU:  Myrciaria cauliflora % missing data = 0.92
+OTU:  Myrciaria cuspidata % missing data = 0.95
+OTU:  Myrciaria floribunda % missing data = 0.96
+OTU:  Myrciaria vexator % missing data = 0.95
+OTU:  Myrtaceae gen. % missing data = 0.94
+OTU:  Myrtaceae sp. % missing data = 0.95
+OTU:  Myrtastrum rufopunctatum % missing data = 0.98
+OTU:  Myrteola nummularia % missing data = 0.92
+OTU:  Myrtus communis % missing data = 0.83
+OTU:  Myrtus nivelii % missing data = 0.99
+OTU:  Myrtus nivellei % missing data = 0.95
+OTU:  Neofabricia mjoebergii % missing data = 0.95
+OTU:  Neofabricia sericisepala % missing data = 0.93
+OTU:  Neomitranthes cordifolia % missing data = 0.94
+OTU:  Neomitranthes glomerata % missing data = 0.95
+OTU:  Neomyrtus pedunculata % missing data = 0.9
+OTU:  Ochrosperma citriodorum % missing data = 0.95
+OTU:  Ochrosperma lineare % missing data = 0.92
+OTU:  Ochrosperma oligomerum % missing data = 0.93
+OTU:  Octamyrtus behrmannii % missing data = 0.98
+OTU:  Octamyrtus pleiopetala % missing data = 0.95
+OTU:  Octamyrtus sp. % missing data = 0.98
+OTU:  Osbornia octodonta % missing data = 0.92
+OTU:  Pericalymma crassipes % missing data = 0.95
+OTU:  Pericalymma ellipticum % missing data = 0.9
+OTU:  Pericalymma spongiocaule % missing data = 0.97
+OTU:  Pericalymma spongiocaule. % missing data = 0.98
+OTU:  Phymatocarpus maxwellii % missing data = 0.97
+OTU:  Pileanthus filifolius % missing data = 0.92
+OTU:  Pilidiostigma glabrum % missing data = 0.98
+OTU:  Pilidiostigma sessile % missing data = 0.98
+OTU:  Pilidiostigma sp. % missing data = 0.95
+OTU:  Pilidiostigma tetramerum % missing data = 0.99
+OTU:  Pilidiostigma tropicum % missing data = 0.97
+OTU:  Piliocalyx bullatus % missing data = 0.92
+OTU:  Piliocalyx concinnus % missing data = 0.92
+OTU:  Piliocalyx francii % missing data = 0.93
+OTU:  Piliocalyx robustus % missing data = 0.92
+OTU:  Pimenta dioica % missing data = 0.92
+OTU:  Pimenta guatemalensis % missing data = 0.95
+OTU:  Pimenta pseudocaryophyllus % missing data = 0.91
+OTU:  Pimenta racemosa % missing data = 0.9
+OTU:  Plinia cauliflora % missing data = 0.99
+OTU:  Plinia guanacastensis % missing data = 0.95
+OTU:  Plinia pauciflora % missing data = 0.94
+OTU:  Plinia rivularis % missing data = 0.98
+OTU:  Psidium cattleianum % missing data = 0.92
+OTU:  Psidium cattleyanum % missing data = 0.87
+OTU:  Psidium cinereum % missing data = 0.95
+OTU:  Psidium friedrichsthalianum % missing data = 0.93
+OTU:  Psidium guajava % missing data = 0.82
+OTU:  Psidium guineense % missing data = 0.93
+OTU:  Psidium longipes % missing data = 0.97
+OTU:  Psidium sp. % missing data = 0.95
+OTU:  Psiloxylon mauritianum % missing data = 0.89
+OTU:  Qualea grandiflora % missing data = 0.97
+OTU:  Qualea parviflora % missing data = 0.98
+OTU:  Qualea rosea % missing data = 0.91
+OTU:  Qualea sp. % missing data = 0.93
+OTU:  Regelia inops % missing data = 0.97
+OTU:  Regelia megacephala % missing data = 0.98
+OTU:  Regelia velutina % missing data = 0.97
+OTU:  Rhodamnia andromedoides % missing data = 0.98
+OTU:  Rhodamnia argentea % missing data = 0.89
+OTU:  Rhodamnia australis % missing data = 0.98
+OTU:  Rhodamnia blairiana % missing data = 0.93
+OTU:  Rhodamnia dumetorum % missing data = 0.95
+OTU:  Rhodamnia rubescens % missing data = 0.92
+OTU:  Rhodamnia sessiliflora % missing data = 0.99
+OTU:  Rhodamnia whiteana % missing data = 0.95
+OTU:  Rhodomyrtus canescens % missing data = 0.98
+OTU:  Rhodomyrtus effusa % missing data = 0.98
+OTU:  Rhodomyrtus elegans % missing data = 0.98
+OTU:  Rhodomyrtus locellata % missing data = 0.98
+OTU:  Rhodomyrtus longisepala % missing data = 0.98
+OTU:  Rhodomyrtus macrocarpa % missing data = 0.91
+OTU:  Rhodomyrtus missimana % missing data = 0.98
+OTU:  Rhodomyrtus montana % missing data = 0.98
+OTU:  Rhodomyrtus novoguineensis % missing data = 0.98
+OTU:  Rhodomyrtus obovata % missing data = 0.98
+OTU:  Rhodomyrtus pervagata % missing data = 0.98
+OTU:  Rhodomyrtus pinnatinervis % missing data = 0.98
+OTU:  Rhodomyrtus psidioides % missing data = 0.95
+OTU:  Rhodomyrtus salomonensis % missing data = 0.98
+OTU:  Rhodomyrtus sericea % missing data = 0.98
+OTU:  Rhodomyrtus surigaoensis % missing data = 0.98
+OTU:  Rhodomyrtus tomentosa % missing data = 0.92
+OTU:  Rinzia dimorphandra % missing data = 0.95
+OTU:  Rinzia fumana % missing data = 0.95
+OTU:  Ristantia gouldii % missing data = 0.95
+OTU:  Ruizterania albiflora % missing data = 0.85
+OTU:  Ruizterania cassiquiarensis % missing data = 0.95
+OTU:  Salvertia convallariodora % missing data = 0.95
+OTU:  Sannantha angusta % missing data = 0.97
+OTU:  Sannantha bidwillii % missing data = 0.94
+OTU:  Sannantha crenulata % missing data = 0.92
+OTU:  Sannantha cunninghamii % missing data = 0.97
+OTU:  Sannantha leratii % missing data = 0.97
+OTU:  Sannantha papillosa % missing data = 0.94
+OTU:  Sannantha procera % missing data = 0.94
+OTU:  Sannantha similis % missing data = 0.94
+OTU:  Sannantha sp. % missing data = 0.95
+OTU:  Sannantha tozerensis % missing data = 0.99
+OTU:  Sannantha virgata % missing data = 0.9
+OTU:  Sannantha whitei % missing data = 0.94
+OTU:  Scholtzia capitata % missing data = 0.95
+OTU:  Scholtzia involucrata % missing data = 0.95
+OTU:  Scholtzia teretifolia % missing data = 0.95
+OTU:  Siphoneugena densiflora % missing data = 0.94
+OTU:  Siphoneugena guifolyleana % missing data = 0.92
+OTU:  Siphoneugena guilfoyleana % missing data = 0.94
+OTU:  Sphaerantia chartacea % missing data = 0.95
+OTU:  Sphaerantia discolor % missing data = 0.98
+OTU:  Stockwellia quadrifida % missing data = 0.91
+OTU:  Stockwellia sp. % missing data = 0.98
+OTU:  Syncarpia glomulifera % missing data = 0.91
+OTU:  Syncarpia hillii % missing data = 0.97
+OTU:  Syzygium acre % missing data = 0.92
+OTU:  Syzygium acuminatissimum % missing data = 0.93
+OTU:  Syzygium alatoramulum % missing data = 0.97
+OTU:  Syzygium alliiligneum % missing data = 0.97
+OTU:  Syzygium amplifolium % missing data = 0.92
+OTU:  Syzygium amplum % missing data = 0.98
+OTU:  Syzygium angophoroides % missing data = 0.94
+OTU:  Syzygium anisatum % missing data = 0.97
+OTU:  Syzygium antisepticum % missing data = 0.97
+OTU:  Syzygium apodophyllum % missing data = 0.91
+OTU:  Syzygium aqueum % missing data = 0.92
+OTU:  Syzygium arboreum % missing data = 0.92
+OTU:  Syzygium argyropedicum % missing data = 0.97
+OTU:  Syzygium armstrongii % missing data = 0.97
+OTU:  Syzygium aromaticum % missing data = 0.89
+OTU:  Syzygium auriculatum % missing data = 0.97
+OTU:  Syzygium australe % missing data = 0.94
+OTU:  Syzygium austrocaledonicum % missing data = 0.92
+OTU:  Syzygium bamagense % missing data = 0.94
+OTU:  Syzygium banksii % missing data = 0.97
+OTU:  Syzygium boonjee % missing data = 0.97
+OTU:  Syzygium brackenridgei % missing data = 0.93
+OTU:  Syzygium branderhorstii % missing data = 0.89
+OTU:  Syzygium buettnerianum % missing data = 0.95
+OTU:  Syzygium bungadinnia % missing data = 0.91
+OTU:  Syzygium buxifolium % missing data = 0.87
+OTU:  Syzygium campanulatum % missing data = 0.97
+OTU:  Syzygium canicortex % missing data = 0.91
+OTU:  Syzygium championii % missing data = 0.93
+OTU:  Syzygium chanlos % missing data = 0.95
+OTU:  Syzygium cinereum % missing data = 0.98
+OTU:  Syzygium claviflorum % missing data = 0.96
+OTU:  Syzygium cleyerifolium % missing data = 0.99
+OTU:  Syzygium cordatum % missing data = 0.9
+OTU:  Syzygium cormiflorum % missing data = 0.9
+OTU:  Syzygium corynanthum % missing data = 0.95
+OTU:  Syzygium crebrinerve % missing data = 0.92
+OTU:  Syzygium cryptophlebium % missing data = 0.99
+OTU:  Syzygium cumini % missing data = 0.86
+OTU:  Syzygium dansiei % missing data = 0.97
+OTU:  Syzygium decussatum % missing data = 0.93
+OTU:  Syzygium diospyrifolium % missing data = 0.97
+OTU:  Syzygium endophloium % missing data = 0.93
+OTU:  Syzygium erythrocalyx % missing data = 0.94
+OTU:  Syzygium eucalyptoides % missing data = 0.97
+OTU:  Syzygium fastigiatum % missing data = 0.98
+OTU:  Syzygium fibrosum % missing data = 0.91
+OTU:  Syzygium floribundum % missing data = 0.95
+OTU:  Syzygium forte % missing data = 0.97
+OTU:  Syzygium francisii % missing data = 0.91
+OTU:  Syzygium fullagarii % missing data = 0.91
+OTU:  Syzygium furfuraceum % missing data = 0.92
+OTU:  Syzygium gerrardii % missing data = 0.95
+OTU:  Syzygium glenum % missing data = 0.93
+OTU:  Syzygium globiflorum % missing data = 0.95
+OTU:  Syzygium gonatanthum % missing data = 0.98
+OTU:  Syzygium goniopterum % missing data = 0.98
+OTU:  Syzygium gracilipes % missing data = 0.97
+OTU:  Syzygium grande % missing data = 0.93
+OTU:  Syzygium guineense % missing data = 0.9
+OTU:  Syzygium gustavioides % missing data = 0.91
+OTU:  Syzygium hancei % missing data = 0.91
+OTU:  Syzygium hemisphericum % missing data = 0.96
+OTU:  Syzygium jambos % missing data = 0.87
+OTU:  Syzygium johnsonii % missing data = 0.96
+OTU:  Syzygium kuebiniense % missing data = 0.95
+OTU:  Syzygium kuranda % missing data = 0.93
+OTU:  Syzygium lateriflorum % missing data = 0.92
+OTU:  Syzygium laxeracemosum % missing data = 0.92
+OTU:  Syzygium legatii % missing data = 0.95
+OTU:  Syzygium levinei % missing data = 0.93
+OTU:  Syzygium longipes % missing data = 0.9
+OTU:  Syzygium luehmannii % missing data = 0.89
+OTU:  Syzygium macilwraithianum % missing data = 0.92
+OTU:  Syzygium maire % missing data = 0.89
+OTU:  Syzygium malaccense % missing data = 0.9
+OTU:  Syzygium masukuense % missing data = 0.97
+OTU:  Syzygium minutuliflorum % missing data = 0.97
+OTU:  Syzygium monimioides % missing data = 0.93
+OTU:  Syzygium moorei % missing data = 0.92
+OTU:  Syzygium muellerii % missing data = 0.92
+OTU:  Syzygium multipetalum % missing data = 0.92
+OTU:  Syzygium nervosum % missing data = 0.92
+OTU:  Syzygium ngoyense % missing data = 0.93
+OTU:  Syzygium nigrans % missing data = 0.97
+OTU:  Syzygium oblatum % missing data = 0.95
+OTU:  Syzygium oleosum % missing data = 0.94
+OTU:  Syzygium paniculatum % missing data = 0.91
+OTU:  Syzygium papyraceum % missing data = 0.97
+OTU:  Syzygium pondoense % missing data = 0.93
+OTU:  Syzygium pseudofastigiatum % missing data = 0.92
+OTU:  Syzygium puberulum % missing data = 0.92
+OTU:  Syzygium purpureum % missing data = 0.92
+OTU:  Syzygium pycnanthum % missing data = 0.92
+OTU:  Syzygium racemosum % missing data = 0.92
+OTU:  Syzygium rehderianum % missing data = 0.93
+OTU:  Syzygium resa % missing data = 0.98
+OTU:  Syzygium ripicola % missing data = 0.97
+OTU:  Syzygium rowlandii % missing data = 0.97
+OTU:  Syzygium rubrimolle % missing data = 0.97
+OTU:  Syzygium samarangense % missing data = 0.91
+OTU:  Syzygium sandwicense % missing data = 0.92
+OTU:  Syzygium sayeri % missing data = 0.93
+OTU:  Syzygium seemannianum % missing data = 0.92
+OTU:  Syzygium seemannii % missing data = 0.92
+OTU:  Syzygium sexangulatum % missing data = 0.93
+OTU:  Syzygium smithii % missing data = 0.95
+OTU:  Syzygium sp. % missing data = 0.86
+OTU:  Syzygium staudtii % missing data = 0.95
+OTU:  Syzygium suborbiculare % missing data = 0.97
+OTU:  Syzygium syzygioides % missing data = 0.95
+OTU:  Syzygium tenuiflorum % missing data = 0.94
+OTU:  Syzygium tetrapterum % missing data = 0.92
+OTU:  Syzygium thorelii % missing data = 0.97
+OTU:  Syzygium thornei % missing data = 0.98
+OTU:  Syzygium tierneyanum % missing data = 0.91
+OTU:  Syzygium trachyphloium % missing data = 0.97
+OTU:  Syzygium unipunctatum % missing data = 0.95
+OTU:  Syzygium velarum % missing data = 0.97
+OTU:  Syzygium venosum % missing data = 0.98
+OTU:  Syzygium wesa % missing data = 0.89
+OTU:  Syzygium wilsonii % missing data = 0.91
+OTU:  Syzygium xerampelinum % missing data = 0.97
+OTU:  Syzygium zeylanicum % missing data = 0.92
+OTU:  Taxandria juniperina % missing data = 0.94
+OTU:  Taxandria linearifolia % missing data = 0.97
+OTU:  Taxandria marginata % missing data = 0.94
+OTU:  Taxandria parviceps % missing data = 0.94
+OTU:  Tepualia stipularis % missing data = 0.92
+OTU:  Thaleropia queenslandica % missing data = 0.89
+OTU:  Thryptomene calycina % missing data = 0.95
+OTU:  Thryptomene saxicola % missing data = 0.93
+OTU:  Triplarina imbricata % missing data = 0.95
+OTU:  Triplarina nitchaga % missing data = 0.95
+OTU:  Triplarina volcanica % missing data = 0.95
+OTU:  Tristania neriifolia % missing data = 0.92
+OTU:  Tristaniopsis burmanica % missing data = 0.95
+OTU:  Tristaniopsis exiliflora % missing data = 0.98
+OTU:  Tristaniopsis laurina % missing data = 0.91
+OTU:  Tristaniopsis sp. % missing data = 0.92
+OTU:  UNVERIFIED: Angophora % missing data = 0.95
+OTU:  UNVERIFIED: Arillastrum % missing data = 0.95
+OTU:  UNVERIFIED: Corymbia % missing data = 0.95
+OTU:  UNVERIFIED: Eucalyptus % missing data = 0.93
+OTU:  UNVERIFIED: Lophostemon % missing data = 0.95
+OTU:  UNVERIFIED: Psidium % missing data = 0.93
+OTU:  UNVERIFIED: Stockwellia % missing data = 0.95
+OTU:  UNVERIFIED: Syzygium % missing data = 0.93
+OTU:  UNVERIFIED: Ugni % missing data = 0.99
+OTU:  Ugni molinae % missing data = 0.87
+OTU:  Ugni selkirkii % missing data = 0.91
+OTU:  Uromyrtus australis % missing data = 0.95
+OTU:  Uromyrtus metrosideros % missing data = 0.92
+OTU:  Verticordia aurea % missing data = 0.97
+OTU:  Verticordia dichroma % missing data = 0.97
+OTU:  Verticordia endlicheriana % missing data = 0.97
+OTU:  Verticordia grandiflora % missing data = 0.97
+OTU:  Verticordia grandis % missing data = 0.97
+OTU:  Verticordia lindleyi % missing data = 0.97
+OTU:  Verticordia pennigera % missing data = 0.93
+OTU:  Verticordia picta % missing data = 0.97
+OTU:  Verticordia plumosa % missing data = 0.97
+OTU:  Verticordia staminosa % missing data = 0.97
+OTU:  Vochysia ferruginea % missing data = 0.93
+OTU:  Vochysia guatemalensis % missing data = 0.95
+OTU:  Vochysia guianensis % missing data = 0.95
+OTU:  Vochysia hondurensis % missing data = 0.93
+OTU:  Vochysia rufescens % missing data = 0.99
+OTU:  Vochysia tomentosa % missing data = 0.98
+OTU:  Vochysia tucanarum % missing data = 0.98
+OTU:  Vochysia tucanorum % missing data = 0.92
+OTU:  Vochysiaceae sp. % missing data = 0.98
+OTU:  Waterhousea floribunda % missing data = 0.91
+OTU:  Waterhousea hedraiophylla % missing data = 0.92
+OTU:  Waterhousea mulgraveana % missing data = 0.91
+OTU:  Waterhousea unipunctata % missing data = 0.91
+OTU:  Welchiodendron longivalve % missing data = 0.97
+OTU:  Whiteodendron moultonianum % missing data = 0.97
+OTU:  Xanthomyrtus compacta % missing data = 0.95
+OTU:  Xanthomyrtus hienghenensis % missing data = 0.98
+OTU:  Xanthomyrtus montivaga % missing data = 0.95
+OTU:  Xanthomyrtus papuana % missing data = 0.97
+OTU:  Xanthostemon aurantiacus % missing data = 0.97
+OTU:  Xanthostemon chrysanthus % missing data = 0.93
+OTU:  Xanthostemon whitei % missing data = 0.98
+Total number of OTUs = 1220
+Total length of matrix = 102087
+Taxon coverage density = 0.06
+Total % missing data = 0.94
+Final supermatrix: alignments/supermatrix_concatenated.fasta

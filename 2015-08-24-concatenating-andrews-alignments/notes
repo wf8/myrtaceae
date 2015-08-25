@@ -1,0 +1,8 @@
+# first clean up fasta files by removing '.' and other funkiness
+
+find * -type f -exec sed -i.bak 's/_sp\._/_sp_/g' {} \;
+find * -type f -exec sed -i.bak "s/'//g" {} \;
+find * -type f -exec sed -i.bak "s/\._/_/g" {} \;
+
+# now concatenate and produce relaxed phylip file, when concatenating use binomials
+# except for those in the form of Eugenia_sp_Cairns
